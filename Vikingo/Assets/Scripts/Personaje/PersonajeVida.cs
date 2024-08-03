@@ -1,7 +1,9 @@
+using System;
 using UnityEngine;
 
 public class PersonajeVida : VidaBase
 {
+    public static Action EventoPersonajeDerrotado;
     public bool PuedeSerCurado => Salud < saludMax;
 
     private void Update()
@@ -29,6 +31,11 @@ public class PersonajeVida : VidaBase
 
             ActualizarBarraVida(Salud, saludMax);
         }
+    }
+
+    protected override void PersonajeDerrotado()
+    {
+        EventoPersonajeDerrotado?.Invoke(); //Si no es nulo se invoca
     }
 
     protected override void ActualizarBarraVida(float vidaActual, float vidaMax)
