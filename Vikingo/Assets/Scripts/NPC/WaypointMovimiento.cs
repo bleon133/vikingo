@@ -6,7 +6,7 @@ public enum DireccionMovimiento
     Horizontal, Vertical
 }
 
-public class WaypointMovimineto : MonoBehaviour
+public class WaypointMovimiento : MonoBehaviour
 {
    
     [SerializeField] protected float velocidad;

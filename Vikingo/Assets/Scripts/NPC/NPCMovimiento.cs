@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPCMovimiento : WaypointMovimineto
+public class NPCMovimiento : WaypointMovimiento
 {
     [SerializeField] private DireccionMovimiento direccion;
 
