@@ -27,7 +27,7 @@ public class PersonajeVida : VidaBase
             RecibirDaño(10);
         }
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.Y))
         {
             RestaurarVida(10);
         }
@@ -35,6 +35,11 @@ public class PersonajeVida : VidaBase
 
     public void RestaurarVida(float cantidad)
     {
+        if (Derrotado)
+        {
+            return;
+        }
+
         if (PuedeSerCurado)
         {
             Salud += cantidad;

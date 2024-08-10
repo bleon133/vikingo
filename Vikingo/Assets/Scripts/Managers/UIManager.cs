@@ -4,9 +4,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIManager : MonoBehaviour
+public class UIManager : Singleton<UIManager>
 {
-    public static UIManager Instance;
 
     [Header("Config")]
     [SerializeField] private Image vidaPlayer;
@@ -15,17 +14,6 @@ public class UIManager : MonoBehaviour
     private float vidaActual;
     private float vidaMax;
 
-    private void Awake()
-    {
-        Instance = this;
-    }
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         ActualizarUIPersonaje();

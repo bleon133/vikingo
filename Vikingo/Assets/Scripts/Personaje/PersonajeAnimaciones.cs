@@ -54,6 +54,12 @@ public class PersonajeAnimaciones : MonoBehaviour
         }
     }
 
+    public void RevivirPersonaje()
+    {
+        ActivarLayer(layerIdle);
+        _animator.SetBool(derrotado, false);
+    }
+
     public void PersonajeDerrotadoRespuesta()
     {
         if (_animator.GetLayerWeight(_animator.GetLayerIndex(layerIdle)) == 1)
