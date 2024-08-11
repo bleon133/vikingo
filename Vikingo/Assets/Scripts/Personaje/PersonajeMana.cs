@@ -10,10 +10,19 @@ public class PersonajeMana : MonoBehaviour
 
     public float ManaActual { get; private set; }
 
+    private PersonajeVida _personajeVida;
+
+    private void Awake()
+    {
+        _personajeVida = GetComponent<PersonajeVida>();
+    }
+
     private void Start()
     {
         ManaActual = manaInicial;
         ActualizarBarraMana();
+
+        InvokeRepeating(nameof(RegenerarMana),1,1); //Repite cada 1 segundo 1 vez
     }
     private void Update()
     {
@@ -30,6 +39,21 @@ public class PersonajeMana : MonoBehaviour
             ManaActual -= cantidad;
             ActualizarBarraMana();
         }
+    }
+
+    private void RegenerarMana()
+    {
+        if(_personajeVida.Salud > 0 && ManaActual < manaMax)
+        {
+            ManaActual += regeneracionPorSegundo;
+            ActualizarBarraMana();
+        }
+    }
+
+    public void RestablecerMana()
+    {
+        ManaActual = manaInicial;
+        ActualizarBarraMana();
     }
 
     private void ActualizarBarraMana()
