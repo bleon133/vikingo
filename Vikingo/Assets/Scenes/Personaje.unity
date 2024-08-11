@@ -698,7 +698,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaPlayer: {fileID: 267929863}
+  manaPlayer: {fileID: 2043283927}
   vidaTMP: {fileID: 591965171}
+  manaTMP: {fileID: 1345683372}
 --- !u!4 &572310717
 Transform:
   m_ObjectHideFlags: 0
@@ -1074,6 +1076,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7135c3dc22b464ca429d52c9c4cdd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manaInicial: 50
+  manaMax: 50
+  regeneracionPorSegundo: 1
 --- !u!1 &1152959659
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class PersonajeMana : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private float manaInicial;
+    [SerializeField] private float manaMax;
+    [SerializeField] private float regeneracionPorSegundo;
+
+    public float ManaActual { get; private set; }
+
+    private void Start()
     {
-        
+        ManaActual = manaInicial;
+        ActualizarBarraMana();
+    }
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.G)) 
+        {
+            UsarMana(10f);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UsarMana(float cantidad)
     {
-        
+        if(ManaActual >= cantidad)
+        {
+            ManaActual -= cantidad;
+            ActualizarBarraMana();
+        }
+    }
+
+    private void ActualizarBarraMana()
+    {
+        UIManager.Instance.ActualizarManaPersonaje(ManaActual, manaMax);
     }
 }
