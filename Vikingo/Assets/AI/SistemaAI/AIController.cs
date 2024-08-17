@@ -13,6 +13,10 @@ public class AIController : MonoBehaviour
     [SerializeField] private float velocidadMovimiento;
     [SerializeField] private LayerMask personajeLayerMask;
 
+    [Header("Debug")]
+    [SerializeField] private bool mostrarDeteccion;
+
+
     public Transform PersonajeReferencia { get; set; }
     public AIEstado EstadoActual { get; set; }
     public float RangoDeteccion => rangoDeteccion;
@@ -38,6 +42,15 @@ public class AIController : MonoBehaviour
         if (nuevoEstado != estadoDefault)
         {
             EstadoActual = nuevoEstado;
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (mostrarDeteccion)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(transform.position, rangoDeteccion);
         }
     }
 }

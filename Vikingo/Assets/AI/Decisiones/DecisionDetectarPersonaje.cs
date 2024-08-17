@@ -23,6 +23,7 @@ public class DecisionDetectarPersonaje : AIDecision
 
         }
 
+        controller.PersonajeReferencia = null;
         return false;
     }
 }

@@ -317,6 +317,7 @@ MonoBehaviour:
   personajeLayerMask:
     serializedVersion: 2
     m_Bits: 64
+  mostrarDeteccion: 1
 --- !u!114 &377124725
 MonoBehaviour:
   m_ObjectHideFlags: 0
