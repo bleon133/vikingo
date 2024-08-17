@@ -2,6 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum TiposDeAtaque
+{
+    Melee,
+    Embestida
+}
+
 public class AIController : MonoBehaviour
 {
     [Header("Estados")]
@@ -13,12 +19,18 @@ public class AIController : MonoBehaviour
     [SerializeField] private float velocidadMovimiento;
     [SerializeField] private LayerMask personajeLayerMask;
 
+    [Header("Ataque")]
+    [SerializeField] private float daño;
+    [SerializeField] private TiposDeAtaque tipoAtaque;
+
+
     [Header("Debug")]
     [SerializeField] private bool mostrarDeteccion;
 
 
     public Transform PersonajeReferencia { get; set; }
     public AIEstado EstadoActual { get; set; }
+    public float Daño => daño;
     public float RangoDeteccion => rangoDeteccion;
     public float VelocidadMovimiento => velocidadMovimiento;
     public LayerMask PersonajeLayerMask => personajeLayerMask;
