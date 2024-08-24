@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Suelo2
+  m_Name: MuroAlmacen2
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 20952495, guid: 4586d000b370d7545b5c3ca173afa09a, type: 3}
+  m_Sprite: {fileID: -217249176, guid: 762a0c999bb23ef409183f7bfc397bcb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

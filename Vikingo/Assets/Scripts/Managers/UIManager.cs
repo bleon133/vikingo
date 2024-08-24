@@ -11,13 +11,14 @@ public class UIManager : Singleton<UIManager>
 
     [Header("Paneles")]
     [SerializeField] private GameObject panelStats;
+    [SerializeField] private GameObject panelInventario;
 
     [Header("Barra")]
     [SerializeField] private Image vidaPlayer;
     [SerializeField] private Image manaPlayer;
     [SerializeField] private Image expPlayer;
 
-    [Header("Text")]
+    [Header("Texto")]
     [SerializeField] private TextMeshProUGUI vidaTMP;
     [SerializeField] private TextMeshProUGUI manaTMP;
     [SerializeField] private TextMeshProUGUI expTMP;
@@ -101,4 +102,18 @@ public class UIManager : Singleton<UIManager>
         expActual = pExpActual;
         expRequeridaNuevoNivel = pExpRequerida;
     }
+
+    #region Paneles
+
+    public void AbrirCerrarPanelStats()
+    {
+        panelStats.SetActive(!panelStats.activeSelf);
+    }
+
+    public void AbrirCerrarPanelInventario()
+    {
+        panelInventario.SetActive(!panelInventario.activeSelf);
+    }
+
+    #endregion
 }
