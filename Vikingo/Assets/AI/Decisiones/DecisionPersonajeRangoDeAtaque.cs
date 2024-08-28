@@ -2,17 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DecisionPersonajeRangoDeAtaque : MonoBehaviour
+[CreateAssetMenu(menuName = "AI/Decisiones/Personaje en rango de ataque")]
+
+public class DecisionPersonajeRangoDeAtaque : AIDecision
 {
-    // Start is called before the first frame update
-    void Start()
+    public override bool Decidir(AIController controller)
     {
-        
+        return EnRangoDeAtaque(controller);
     }
 
-    // Update is called once per frame
-    void Update()
+    private bool EnRangoDeAtaque(AIController controller)
     {
+
+        if(controller.PersonajeReferencia == null)
+        {
+            return false;
+        }
         
+        float distancia = (controller.PersonajeReferencia.position - controller.transform.position).sqrMagnitude;
+        if (distancia < Mathf.Pow(controller.RangoDeAtaque, 2))
+        {
+            return true;
+        }
+        return false;
     }
 }

@@ -10,7 +10,7 @@ public class DecisionDetectarPersonaje : AIDecision
     {
         return DetectarPersonaje(controller);
     }
-
+    
     private bool DetectarPersonaje(AIController controller)
     {
 
