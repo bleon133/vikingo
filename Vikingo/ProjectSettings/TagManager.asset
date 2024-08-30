@@ -47,6 +47,9 @@ TagManager:
   - name: Tilemap_Edificios
     uniqueID: 3389515839
     locked: 0
+  - name: Items
+    uniqueID: 792551317
+    locked: 0
   - name: Personaje
     uniqueID: 869870233
     locked: 0

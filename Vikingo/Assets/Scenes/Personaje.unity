@@ -5144,7 +5144,7 @@ GameObject:
   - component: {fileID: 896583144}
   m_Layer: 0
   m_Name: Vikingo
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9584,6 +9584,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1962408231836741145, guid: 3767f40307b781548a620920a9de1cb4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962408231836741145, guid: 3767f40307b781548a620920a9de1cb4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 792551317
+      objectReference: {fileID: 0}
     - target: {fileID: 3065752823561064139, guid: 3767f40307b781548a620920a9de1cb4, type: 3}
       propertyPath: m_Name
       value: repollo
@@ -9701,6 +9709,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1483196499795278805, guid: 62a486e7055fb8242afc9e3cb2136d0b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1483196499795278805, guid: 62a486e7055fb8242afc9e3cb2136d0b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 792551317
+      objectReference: {fileID: 0}
     - target: {fileID: 1483196499795278806, guid: 62a486e7055fb8242afc9e3cb2136d0b, type: 3}
       propertyPath: m_Name
       value: zanahoria
@@ -9761,6 +9777,14 @@ PrefabInstance:
     - target: {fileID: 2324851913867444182, guid: 7ee1897e9f952184c9eae82745729caf, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2324851913867444183, guid: 7ee1897e9f952184c9eae82745729caf, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2324851913867444183, guid: 7ee1897e9f952184c9eae82745729caf, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 792551317
       objectReference: {fileID: 0}
     - target: {fileID: 2324851913867444184, guid: 7ee1897e9f952184c9eae82745729caf, type: 3}
       propertyPath: m_IsTrigger
@@ -9831,6 +9855,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: remolacha
       objectReference: {fileID: 0}
+    - target: {fileID: 8621291737162298433, guid: 8027384ee0f08c04ebd406ce382796d6, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8621291737162298433, guid: 8027384ee0f08c04ebd406ce382796d6, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 792551317
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8027384ee0f08c04ebd406ce382796d6, type: 3}
 --- !u!1001 &7358192884624943421
@@ -9843,6 +9875,14 @@ PrefabInstance:
     - target: {fileID: 620839735932025184, guid: d2af4fe85a0d69247a0b897d3acfede4, type: 3}
       propertyPath: m_Name
       value: cebolla
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371819169235546812, guid: d2af4fe85a0d69247a0b897d3acfede4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371819169235546812, guid: d2af4fe85a0d69247a0b897d3acfede4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 792551317
       objectReference: {fileID: 0}
     - target: {fileID: 1724856924543872707, guid: d2af4fe85a0d69247a0b897d3acfede4, type: 3}
       propertyPath: m_IsTrigger
