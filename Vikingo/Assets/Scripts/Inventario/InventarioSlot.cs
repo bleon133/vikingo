@@ -1,11 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+public enum TipoDeInteraccion
+{
+    Click,
+    Usar,
+    Equipar,
+    Remover
+}
+
 public class InventarioSlot : MonoBehaviour
 {
+    public static Action<TipoDeInteraccion, int> EventoSlotInteraccion;
+
     [SerializeField] private Image itemIcono;
     [SerializeField] private GameObject fondoCantidad;
     [SerializeField] private TextMeshProUGUI cantidadTMP;
@@ -22,5 +33,10 @@ public class InventarioSlot : MonoBehaviour
     {
         itemIcono.gameObject.SetActive(estado);
         fondoCantidad.SetActive(estado);
+    }
+
+    public void clickSlot()
+    {
+        EventoSlotInteraccion?.Invoke(TipoDeInteraccion.Click, Index);
     }
 }
