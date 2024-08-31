@@ -34,6 +34,8 @@ public class AIController : MonoBehaviour
 
     [Header("Debug")]
     [SerializeField] private bool mostrarDeteccion;
+    [SerializeField] private bool mostrarRangoAtaque;
+
 
     private float tiempoParaSiguienteAtaque;
     public Transform PersonajeReferencia { get; set; }
@@ -63,7 +65,7 @@ public class AIController : MonoBehaviour
     public void AplicarDañoAlPersonaje(float cantidad)
     {
         float dañoPorRealizar = 0;
-        if (Random.value < stats.PorcentajeBloqueo)
+        if (Random.value < stats.PorcentajeBloqueo / 100)
         {
             return;
         }
@@ -110,7 +112,7 @@ public class AIController : MonoBehaviour
 
     public void ActualizarTiempoEntreAtaques()
     {
-        tiempoParaSiguienteAtaque = Time.time * tiempoEntreAtaques;
+        tiempoParaSiguienteAtaque = Time.time + tiempoEntreAtaques;
     }
     private void OnDrawGizmos()
     {
@@ -118,6 +120,12 @@ public class AIController : MonoBehaviour
         {
             Gizmos.color = Color.green;
             Gizmos.DrawWireSphere(transform.position, rangoDeteccion);
+        }
+
+        if (mostrarRangoAtaque)
+        {
+            Gizmos.color = Color.magenta;
+            Gizmos.DrawWireSphere(transform.position, rangoDeAtaque);
         }
     }
 }

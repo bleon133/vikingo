@@ -9,12 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b907f92a8ee4e043b9331ce57d784e1, type: 3}
-  m_Name: EstadoAtacarPersonaje
+  m_Script: {fileID: 11500000, guid: 5b6478812748e11429c82bb18717a734, type: 3}
+  m_Name: DecisionPersonajeRangoDeAtaque
   m_EditorClassIdentifier: 
-  Acciones:
-  - {fileID: 0}
-  Transiciones:
-  - Decision: {fileID: 0}
-    EstadoVerdadero: {fileID: 0}
-    EstadoFalso: {fileID: 0}

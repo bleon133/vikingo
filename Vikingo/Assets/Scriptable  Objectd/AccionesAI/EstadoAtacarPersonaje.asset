@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b907f92a8ee4e043b9331ce57d784e1, type: 3}
   m_Name: EstadoAtacarPersonaje
   m_EditorClassIdentifier: 
-  Acciones: []
-  Transiciones: []
+  Acciones:
+  - {fileID: 11400000, guid: 72250f6bdf2f3ff4f972d2f578dd3946, type: 2}
+  Transiciones:
+  - Decision: {fileID: 11400000, guid: 0b8b3f1931b7d6a43806f4b97cfa4c12, type: 2}
+    EstadoVerdadero: {fileID: 11400000, guid: 7b94a7ca09ce3a142901b270f973a2be, type: 2}
+    EstadoFalso: {fileID: 11400000, guid: d8e4db408ff789e4cb4105d3186f5326, type: 2}
