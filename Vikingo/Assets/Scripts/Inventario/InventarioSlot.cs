@@ -39,4 +39,12 @@ public class InventarioSlot : MonoBehaviour
     {
         EventoSlotInteraccion?.Invoke(TipoDeInteraccion.Click, Index);
     }
+
+    public void SlotUsarItem()
+    {
+        if (Inventario.Instance.ItemsInventario[Index] != null)
+        {
+            EventoSlotInteraccion?.Invoke(TipoDeInteraccion.Usar, Index);
+        }
+    }
 }

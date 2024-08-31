@@ -30,4 +30,19 @@ public class InventarioItem : ScriptableObject
         InventarioItem nuevaInstancia = Instantiate(this);
         return nuevaInstancia;
     }
+
+    public virtual bool UsarItem()
+    {
+        return true;
+    }
+
+    public virtual bool EquiparItem()
+    {
+        return true;
+    }
+
+    public virtual bool RemoverItem()
+    {
+        return true;
+    }
 }

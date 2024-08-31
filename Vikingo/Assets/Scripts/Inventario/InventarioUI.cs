@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class InventarioUI : Singleton<InventarioUI>
@@ -16,11 +17,17 @@ public class InventarioUI : Singleton<InventarioUI>
     [SerializeField] private InventarioSlot slotPrefab;
     [SerializeField] private Transform contenedor;
 
+    public InventarioSlot SlotSeleccionado { get; private set; }
     List<InventarioSlot> slotsDisponibles = new List<InventarioSlot>();
 
     void Start()
     {
         InicializarInventario();
+    }
+
+    private void Update()
+    {
+        ActualizarSlotSeleccionado();
     }
 
     private void InicializarInventario()
@@ -30,6 +37,21 @@ public class InventarioUI : Singleton<InventarioUI>
             InventarioSlot nuevoSlot = Instantiate(slotPrefab, contenedor);
             nuevoSlot.Index = i;
             slotsDisponibles.Add(nuevoSlot);
+        }
+    }
+
+    private void ActualizarSlotSeleccionado()
+    {
+        GameObject goSeleccionado = EventSystem.current.currentSelectedGameObject;
+        if (goSeleccionado != null) 
+        {
+            return;
+        }
+
+        InventarioSlot slot = goSeleccionado.GetComponent<InventarioSlot>();
+        if(slot != null)
+        {
+            SlotSeleccionado = slot;
         }
     }
 
@@ -62,9 +84,10 @@ public class InventarioUI : Singleton<InventarioUI>
         }
     }
 
+    #region Evento
     private void SlotInteraccionRespuesta(TipoDeInteraccion tipo, int index)
     {
-        if(tipo == TipoDeInteraccion.Click)
+        if (tipo == TipoDeInteraccion.Click)
         {
             ActualizarInventarioDescripcion(index);
         }
@@ -79,4 +102,5 @@ public class InventarioUI : Singleton<InventarioUI>
     {
         InventarioSlot.EventoSlotInteraccion -= SlotInteraccionRespuesta;
     }
+    #endregion
 }
