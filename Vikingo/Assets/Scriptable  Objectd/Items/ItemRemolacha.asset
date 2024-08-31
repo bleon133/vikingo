@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab073a0eb0b3bbe4fa0d66fb6b017005, type: 3}
   m_Name: ItemRemolacha
   m_EditorClassIdentifier: 
-  ID: PocionMana
-  Nombre: Pocion de Mana
+  ID: Remolacha
+  Nombre: Remolacha
   Icono: {fileID: 21300000, guid: fb024102d42051c47813295d0afdebb4, type: 3}
   Descripcion: Remolacha que restaura 15pts de Mana.
   Tipo: 1
