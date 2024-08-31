@@ -43,7 +43,7 @@ public class InventarioUI : Singleton<InventarioUI>
     private void ActualizarSlotSeleccionado()
     {
         GameObject goSeleccionado = EventSystem.current.currentSelectedGameObject;
-        if (goSeleccionado != null) 
+        if (goSeleccionado == null) 
         {
             return;
         }
@@ -84,6 +84,15 @@ public class InventarioUI : Singleton<InventarioUI>
         }
     }
 
+    public void UsarItem()
+    {
+        if (SlotSeleccionado != null)
+        {
+            SlotSeleccionado.SlotUsarItem();
+            SlotSeleccionado.SeleccionarSlot();
+        }
+    }
+
     #region Evento
     private void SlotInteraccionRespuesta(TipoDeInteraccion tipo, int index)
     {
@@ -102,5 +111,6 @@ public class InventarioUI : Singleton<InventarioUI>
     {
         InventarioSlot.EventoSlotInteraccion -= SlotInteraccionRespuesta;
     }
+
     #endregion
 }

@@ -23,6 +23,13 @@ public class InventarioSlot : MonoBehaviour
 
     public int Index { get; set; }
 
+    private Button _button;
+
+    private void Awake()
+    {
+        _button = GetComponent<Button>();
+    }
+
     public void ActualizarSlot(InventarioItem item, int cantidad)
     {
         itemIcono.sprite = item.Icono;
@@ -38,6 +45,11 @@ public class InventarioSlot : MonoBehaviour
     public void clickSlot()
     {
         EventoSlotInteraccion?.Invoke(TipoDeInteraccion.Click, Index);
+    }
+
+    public void SeleccionarSlot()
+    {
+        _button.Select();   
     }
 
     public void SlotUsarItem()

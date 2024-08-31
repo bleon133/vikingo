@@ -28,7 +28,7 @@ public class PersonajeExperiencia : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.X)) 
         {
-            AñadirExperiencia(2f);
+            AñadirExperiencia(1f);
         }
     }
 

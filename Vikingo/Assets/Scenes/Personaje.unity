@@ -4759,8 +4759,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3a723b24840fcb4ea9a0de25ff04931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroDeSlots: 24
   itemsInventario: []
+  personaje: {fileID: 896583142}
+  numeroDeSlots: 24
 --- !u!4 &835031145
 Transform:
   m_ObjectHideFlags: 0
@@ -5327,8 +5328,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81a61507944875b4eb36632c38ec6832, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludInicial: 50
-  saludMax: 50
+  saludInicial: 100
+  saludMax: 100
 --- !u!114 &896583142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5354,8 +5355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7135c3dc22b464ca429d52c9c4cdd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manaInicial: 50
-  manaMax: 50
+  manaInicial: 100
+  manaMax: 100
   regeneracionPorSegundo: 1
 --- !u!114 &896583144
 MonoBehaviour:
@@ -5370,7 +5371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: e1cefcdcdac524842b4a0ed252931529, type: 2}
-  nivelMax: 20
+  nivelMax: 5
   expBase: 2
   valorIncremental: 2
 --- !u!1 &903240682
@@ -6162,7 +6163,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1176089726}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 835031143}
+        m_TargetAssemblyTypeName: InventarioUI, Assembly-CSharp
+        m_MethodName: UsarItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1176089726
 MonoBehaviour:
   m_ObjectHideFlags: 0

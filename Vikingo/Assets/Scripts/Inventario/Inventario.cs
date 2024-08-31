@@ -100,4 +100,60 @@ public class Inventario : Singleton<Inventario>
             }
         }
     }
+
+    private void EliminarItem(int index)
+    {
+        itemsInventario[index].Cantidad--;
+        if (itemsInventario[index].Cantidad <= 0)
+        {
+            itemsInventario[index].Cantidad = 0;
+            itemsInventario[index] = null;
+            InventarioUI.Instance.DibujarItemEnInventario(null, 0, index);
+        }
+        else
+        {
+            InventarioUI.Instance.DibujarItemEnInventario(itemsInventario[index], itemsInventario[index].Cantidad, index);
+        }
+    }
+
+    private void UsarItem(int index)
+    {
+        if (itemsInventario[index] == null)
+        {
+            return;
+        }
+
+        if (itemsInventario[index].UsarItem())
+        {
+            EliminarItem(index);
+        }
+    }
+
+    #region Eventos
+
+    private void SlotInteraccionRespuesta(TipoDeInteraccion tipo, int index)
+    {
+        switch (tipo)
+        {
+            case TipoDeInteraccion.Usar:
+                UsarItem(index);
+                break;
+            case TipoDeInteraccion.Equipar:
+                break;
+            case TipoDeInteraccion.Remover:
+                break;
+        }
+    }
+
+    private void OnEnable()
+    {
+        InventarioSlot.EventoSlotInteraccion += SlotInteraccionRespuesta;
+    }
+
+    private void OnDisable()
+    {
+        InventarioSlot.EventoSlotInteraccion -= SlotInteraccionRespuesta;
+    }
+
+    #endregion
 }

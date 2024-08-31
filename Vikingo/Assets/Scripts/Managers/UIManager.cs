@@ -60,7 +60,29 @@ public class UIManager : Singleton<UIManager>
         vidaTMP.text = $"{vidaActual}/{vidaMax}";
         manaTMP.text = $"{manaActual}/{manaMax}";
         expTMP.text = $"{((expActual / expRequeridaNuevoNivel) * 100):F2}%";
-        nivelTMP.text = $"Nivel {stats.Nivel}";
+        if(stats.Nivel == 1)
+        {
+            nivelTMP.text = $"Thralls";
+        }
+        else if (stats.Nivel == 2)
+        {
+            nivelTMP.text = $"Karls";
+        }
+        else if (stats.Nivel == 3)
+        {
+            nivelTMP.text = $"Hersir";
+        }
+        else if (stats.Nivel == 4)
+        {
+            nivelTMP.text = $"Jarl";
+        }
+        else if (stats.Nivel == 5)
+        {
+            nivelTMP.text = $"Konungr";
+        }
+        else{
+            nivelTMP.text = $"Nivel {stats.Nivel}";
+        }
     }
 
     private void ActualizarPanelStats()
