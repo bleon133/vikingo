@@ -45,6 +45,16 @@ public class InventarioSlot : MonoBehaviour
     public void clickSlot()
     {
         EventoSlotInteraccion?.Invoke(TipoDeInteraccion.Click, Index);
+
+        // Mover Item
+        if(InventarioUI.Instance.IndexSlotInicialPorMover != -1)
+        {
+            if(InventarioUI.Instance.IndexSlotInicialPorMover != Index)
+            {
+                //Mover
+                Inventario.Instance.MoverItem(InventarioUI.Instance.IndexSlotInicialPorMover, Index);
+            }
+        }
     }
 
     public void SeleccionarSlot()

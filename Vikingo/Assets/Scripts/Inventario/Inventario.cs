@@ -116,6 +116,24 @@ public class Inventario : Singleton<Inventario>
         }
     }
 
+    public void MoverItem(int indexInicial, int indexFinal)
+    {
+        if (itemsInventario[indexInicial] == null || itemsInventario[indexFinal] != null)
+        {
+            return;
+        }
+
+        // Copiar el item en el slot final
+        InventarioItem itemPorMover = itemsInventario[indexInicial].CopiarItem();
+        itemsInventario[indexFinal] = itemPorMover;
+
+        InventarioUI.Instance.DibujarItemEnInventario(itemPorMover, itemPorMover.Cantidad, indexFinal);
+
+        //Borramos Item del slot inicial
+        itemsInventario[indexInicial] = null;
+        InventarioUI.Instance.DibujarItemEnInventario(null, 0, indexInicial);
+    }
+
     private void UsarItem(int index)
     {
         if (itemsInventario[index] == null)

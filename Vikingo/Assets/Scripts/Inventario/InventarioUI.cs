@@ -17,17 +17,26 @@ public class InventarioUI : Singleton<InventarioUI>
     [SerializeField] private InventarioSlot slotPrefab;
     [SerializeField] private Transform contenedor;
 
+    public int IndexSlotInicialPorMover { get; private set; }
     public InventarioSlot SlotSeleccionado { get; private set; }
     List<InventarioSlot> slotsDisponibles = new List<InventarioSlot>();
 
     void Start()
     {
         InicializarInventario();
+        IndexSlotInicialPorMover = -1;
     }
 
     private void Update()
     {
         ActualizarSlotSeleccionado();
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            if (SlotSeleccionado != null)
+            {
+                IndexSlotInicialPorMover = SlotSeleccionado.Index;
+            }
+        }
     }
 
     private void InicializarInventario()
