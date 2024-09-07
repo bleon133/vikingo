@@ -22,8 +22,9 @@ public class AIController : MonoBehaviour
     [Header("config")]
     [SerializeField] private float rangoDeteccion;
     [SerializeField] private float rangoDeAtaque;
-
+    [SerializeField] private float rangoDeEmbestida;
     [SerializeField] private float velocidadMovimiento;
+    [SerializeField] private float velocidadDeEmbestida;
     [SerializeField] private LayerMask personajeLayerMask;
 
     [Header("Ataque")]
@@ -35,25 +36,28 @@ public class AIController : MonoBehaviour
     [Header("Debug")]
     [SerializeField] private bool mostrarDeteccion;
     [SerializeField] private bool mostrarRangoAtaque;
+    [SerializeField] private bool mostrarRangoEmbestida;
+
 
 
     private float tiempoParaSiguienteAtaque;
+
+    private BoxCollider2D _boxCollider2D;
     public Transform PersonajeReferencia { get; set; }
     public AIEstado EstadoActual { get; set; }
     public EnemigoMovimiento EnemigoMovimiento { get; set; }
     public float Daño => daño;
     public float RangoDeteccion => rangoDeteccion;
-
-    public float RangoDeAtaque => rangoDeAtaque;
     public TiposDeAtaque TipoAtaque => tipoAtaque;
     public float VelocidadMovimiento => velocidadMovimiento;
     public LayerMask PersonajeLayerMask => personajeLayerMask;
+    public float RangoDeAtaqueDeterminado => tipoAtaque == TiposDeAtaque.Embestida ? rangoDeEmbestida : rangoDeAtaque;
 
     
     private void Start()
     {
+        _boxCollider2D = GetComponent<BoxCollider2D>();
         EstadoActual = estadoInicial;
-
         EnemigoMovimiento = GetComponent<EnemigoMovimiento>();
     }
 
@@ -62,6 +66,31 @@ public class AIController : MonoBehaviour
         EstadoActual.EjecutarEstado(controller: this);
         EnemigoMovimiento = GetComponent<EnemigoMovimiento>();
     }
+    private IEnumerator IEEmbestida(float cantidad)
+    {
+        Vector3 personajePosicion = PersonajeReferencia.position;
+        Vector3 posicionInicial = transform.position;
+        Vector3 direccionHaciaPersonaje = (personajePosicion - posicionInicial).normalized;
+        Vector3 posicionDeAtaque = personajePosicion - direccionHaciaPersonaje * 0.5f;
+        _boxCollider2D.enabled = false;
+
+        float transicionDeAtaque = 0f;
+        while (transicionDeAtaque <= 1f)
+        {
+            transicionDeAtaque += Time.deltaTime + velocidadMovimiento;
+            float interpolacion = (-Mathf.Pow(transicionDeAtaque, 2) + transicionDeAtaque) * 4f;
+            transform.position = Vector3.Lerp(posicionInicial, posicionDeAtaque, interpolacion);
+            yield return null;
+        }
+
+        if (PersonajeReferencia != null)
+        {
+            AplicarDañoAlPersonaje(cantidad);
+        }
+
+        _boxCollider2D.enabled = true;
+    }
+
     public void AplicarDañoAlPersonaje(float cantidad)
     {
         float dañoPorRealizar = 0;
@@ -74,6 +103,7 @@ public class AIController : MonoBehaviour
         PersonajeReferencia.GetComponent<PersonajeVida>().RecibirDaño(dañoPorRealizar);
     }
 
+    
     public void CambiarEstado(AIEstado nuevoEstado)
     {
         if (nuevoEstado != estadoDefault)
@@ -88,6 +118,11 @@ public class AIController : MonoBehaviour
         {
             AplicarDañoAlPersonaje(cantidad);
         }
+    }
+
+    public void AtaqueEmbestida(float cantidad)
+    {
+        StartCoroutine(IEEmbestida(cantidad));
     }
 
     
@@ -126,6 +161,12 @@ public class AIController : MonoBehaviour
         {
             Gizmos.color = Color.magenta;
             Gizmos.DrawWireSphere(transform.position, rangoDeAtaque);
+        }
+
+        if (mostrarRangoEmbestida)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(transform.position, rangoDeEmbestida);
         }
     }
 }

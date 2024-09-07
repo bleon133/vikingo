@@ -20,7 +20,7 @@ public class DecisionPersonajeRangoDeAtaque : AIDecision
         }
         
         float distancia = (controller.PersonajeReferencia.position - controller.transform.position).sqrMagnitude;
-        if (distancia < Mathf.Pow(controller.RangoDeAtaque, 2))
+        if (distancia < Mathf.Pow(controller.RangoDeAtaqueDeterminado, 2))
         {
             return true;
         }
