@@ -1,6 +1,5 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 
 public enum TiposDeAtaque
@@ -11,6 +10,7 @@ public enum TiposDeAtaque
 
 public class AIController : MonoBehaviour
 {
+    public static Action<float> EventoDañoRealizado;
 
     [Header("Stats")]
     [SerializeField] private PersonajeStats stats;
@@ -94,13 +94,14 @@ public class AIController : MonoBehaviour
     public void AplicarDañoAlPersonaje(float cantidad)
     {
         float dañoPorRealizar = 0;
-        if (Random.value < stats.PorcentajeBloqueo / 100)
+        if (UnityEngine.Random.value < stats.PorcentajeBloqueo / 100)
         {
             return;
         }
 
         dañoPorRealizar = Mathf.Max(cantidad - stats.Defensa, 1f);
         PersonajeReferencia.GetComponent<PersonajeVida>().RecibirDaño(dañoPorRealizar);
+        EventoDañoRealizado?.Invoke(dañoPorRealizar);
     }
 
     
