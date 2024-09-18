@@ -17,6 +17,10 @@ MonoBehaviour:
   Velocidad: 5
   Nivel: 1
   ExpActual: 0
-  ExpRequeridaSiguienteNivel: 0
+  ExpRequeridaSiguienteNivel: 2
   PorcentajeCritico: 0
   PorcentajeBloqueo: 0
+  Fuerza: 0
+  Inteligencia: 0
+  Destreza: 0
+  PuntosDisponibles: 0

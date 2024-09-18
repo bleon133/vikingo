@@ -5,32 +5,59 @@ using UnityEngine.Events;
 
 public class Trigger : MonoBehaviour
 {
-    public UnityEvent onEnterEvent; // Evento para cuando un player entra en el trigger
-    public UnityEvent onExitEvent;  // Evento para cuando un player sale del trigger
+    [SerializeField] private string ReconocerTag;
+
+    [SerializeField] private UnityEvent EventoEntrar;
+    [SerializeField] private UnityEvent EventoSalir;
+
+    [SerializeField] private GameObject A_D_objeto;
+
+    [SerializeField] private bool ActivadoInicial = false;
+
+    private bool AdentrodelTrigger = false;
+
+    private void Start()
+    {
+        if (A_D_objeto != null)
+        {
+            A_D_objeto.SetActive(ActivadoInicial);
+        }
+        else
+        {
+            Debug.LogError("Falta asignar un objeto en A_D_objeto.");
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Verifica si el objeto que entra tiene una etiqueta de "player"
-        if (other.CompareTag("Player"))
+        if (other.CompareTag(ReconocerTag))
         {
-            // Invoca el evento de entrada
-            onEnterEvent.Invoke();
-
-            // Aquí puedes agregar más lógica según lo que necesites hacer cuando un player entre en el trigger
-            Debug.Log("Player entró en el área");
+            AdentrodelTrigger = true;
+            EventoEntrar?.Invoke();
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        // Verifica si el objeto que sale tiene una etiqueta de "player"
-        if (other.CompareTag("Player"))
+        if (other.CompareTag(ReconocerTag))
         {
-            // Invoca el evento de salida
-            onExitEvent.Invoke();
+            AdentrodelTrigger = false;
+            EventoSalir?.Invoke();
+        }
+    }
 
-            // Aquí puedes agregar más lógica según lo que necesites hacer cuando un player salga del trigger
-            Debug.Log("Player salió del área");
+    private void Update()
+    {
+        if (AdentrodelTrigger && Input.GetKeyDown(KeyCode.E))
+        {
+            if (A_D_objeto != null)
+            {
+                A_D_objeto.SetActive(!A_D_objeto.activeSelf);
+            }
+            else
+            {
+                Debug.LogError("Falta asignar un objeto en A_D_objeto.");
+            }
         }
     }
 }
