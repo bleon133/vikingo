@@ -5,61 +5,71 @@ using UnityEngine;
 public class PersonajeMovimiento : MonoBehaviour
 {
     [SerializeField] private float velocidad;
+    [SerializeField] private float velocidadSprint;
+    [SerializeField] private float tiempoSprint = 5f;
+    [SerializeField] private float tiempoRecargaSprint = 10f;
 
-    //Para manejarla en otros scripts
-    public bool EnMovimiento => _direccionMovimiento.magnitude > 0f;
-    public Vector2 DireccionMovimiento => _direccionMovimiento;
+    private float tiempoRestanteRecarga = 0f;
+    private bool enSprint = false;
+    private Vector2 _direccionMovimiento;
 
     private Rigidbody2D _rigidbody2D;
-    private Vector2 _direccionMovimiento;
-    private Vector2 _input;
+
+    public bool EnMovimiento => _direccionMovimiento.magnitude > 0f;
+    public Vector2 DireccionMovimiento => _direccionMovimiento;
 
     private void Awake()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
-        _input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        var _input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        _direccionMovimiento = new Vector2(
+            _input.x != 0 ? Mathf.Sign(_input.x) : 0,
+            _input.y != 0 ? Mathf.Sign(_input.y) : 0
+        );
 
-        // X
-
-        if(_input.x > 0.1f)
+        if (Input.GetKey(KeyCode.LeftShift) && !enSprint && tiempoRestanteRecarga <= 0)
         {
-            _direccionMovimiento.x = 1f;
-        }else if(_input.x < 0)
-        {
-            _direccionMovimiento.x = -1f;
-        }
-        else
-        {
-            _direccionMovimiento.x = 0;
+            StartCoroutine(Sprint());
         }
 
-        // Y
+        if (_direccionMovimiento.magnitude > 1)
+            _direccionMovimiento.Normalize();
 
-        if (_input.y > 0.1f)
+        if (tiempoRestanteRecarga > 0)
         {
-            _direccionMovimiento.y = 1f;
-        }
-        else if (_input.y < 0)
-        {
-            _direccionMovimiento.y = -1f;
-        }
-        else
-        {
-            _direccionMovimiento.y = 0;
+            tiempoRestanteRecarga -= Time.deltaTime;
         }
     }
 
     private void FixedUpdate()
     {
-        _rigidbody2D.MovePosition(_rigidbody2D.position + _direccionMovimiento * velocidad * Time.fixedDeltaTime);
+        float velocidadActual = velocidad;
+
+        if (enSprint)
+        {
+            velocidadActual = velocidadSprint;
+        }
+
+        _rigidbody2D.MovePosition(_rigidbody2D.position + _direccionMovimiento * velocidadActual * Time.fixedDeltaTime);
+    }
+
+    private IEnumerator Sprint()
+    {
+        enSprint = true;
+        float tiempoInicial = tiempoSprint;
+
+        while (tiempoSprint > 0)
+        {
+            tiempoSprint -= Time.deltaTime;
+            yield return null;
+        }
+
+        enSprint = false;
+        tiempoRestanteRecarga = tiempoRecargaSprint;
+        tiempoSprint = tiempoInicial;
     }
 }

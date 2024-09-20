@@ -1317,6 +1317,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 4
+  velocidadSprint: 0
+  tiempoSprint: 5
+  tiempoRecargaSprint: 10
 --- !u!50 &1673972466
 Rigidbody2D:
   serializedVersion: 4
