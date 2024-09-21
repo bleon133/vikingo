@@ -53,6 +53,9 @@ TagManager:
   - name: Tilemap_Edificios2
     uniqueID: 2862435637
     locked: 0
+  - name: Vegetacion
+    uniqueID: 1707417805
+    locked: 0
   - name: Muebles
     uniqueID: 1496882239
     locked: 0
