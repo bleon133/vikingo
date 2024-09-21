@@ -35,7 +35,7 @@ public class DialogoManager : Singleton<DialogoManager>
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             ConfigurarPanel(NPCDisponible.Dialogo);
         }

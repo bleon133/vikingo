@@ -7707,8 +7707,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 7
-  velocidadSprint: 12
-  tiempoSprint: 1.5
+  velocidadSprint: 16
+  tiempoSprint: 1
   tiempoRecargaSprint: 10
 --- !u!114 &896583140
 MonoBehaviour:
