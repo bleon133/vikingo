@@ -12,6 +12,8 @@ public class UIManager : Singleton<UIManager>
     [Header("Paneles")]
     [SerializeField] private GameObject panelStats;
     [SerializeField] private GameObject panelInventario;
+    [SerializeField] private GameObject panelInspectorQuests;
+
 
     [Header("Barra")]
     [SerializeField] private Image vidaPlayer;
