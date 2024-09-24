@@ -7331,7 +7331,11 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 869870233
+<<<<<<< HEAD
   m_SortingLayer: 8
+=======
+  m_SortingLayer: 9
+>>>>>>> d6fdd149cfe1958abd97335f39d4f48e83dc3389
   m_SortingOrder: 0
   m_Sprite: {fileID: 790950820, guid: 568fe6d4b0386a24fb90a26577da5c53, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7395,7 +7399,11 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< HEAD
   m_Offset: {x: 0.0039018244, y: 0}
+=======
+  m_Offset: {x: -0.00087438524, y: 0}
+>>>>>>> d6fdd149cfe1958abd97335f39d4f48e83dc3389
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7406,7 +7414,11 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 0.4303203, y: 1}
+=======
+  m_Size: {x: 0.42473665, y: 1}
+>>>>>>> d6fdd149cfe1958abd97335f39d4f48e83dc3389
   m_EdgeRadius: 0
 --- !u!95 &896583138
 Animator:
@@ -8578,7 +8590,11 @@ MonoBehaviour:
   estadoInicial: {fileID: 11400000, guid: e4df0009a7d73394c873ea1277465d20, type: 2}
   estadoDefault: {fileID: 11400000, guid: 7b94a7ca09ce3a142901b270f973a2be, type: 2}
   rangoDeteccion: 7
+<<<<<<< HEAD
   rangoDeAtaque: 2
+=======
+  rangoDeAtaque: 3
+>>>>>>> d6fdd149cfe1958abd97335f39d4f48e83dc3389
   rangoDeEmbestida: 4
   velocidadMovimiento: 3
   velocidadDeEmbestida: 2
@@ -8604,7 +8620,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.04485959, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8615,7 +8631,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 4}
+  m_Size: {x: 1.7928902, y: 4}
   m_EdgeRadius: 0
 --- !u!114 &1226180527
 MonoBehaviour:
