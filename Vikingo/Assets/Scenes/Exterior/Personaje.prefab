@@ -2818,7 +2818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -2952,7 +2952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -4587,7 +4587,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 869870233
-  m_SortingLayer: 9
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: 790950820, guid: 568fe6d4b0386a24fb90a26577da5c53, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4938,6 +4938,8 @@ MonoBehaviour:
   stats: {fileID: 11400000, guid: e1cefcdcdac524842b4a0ed252931529, type: 2}
   panelStats: {fileID: 1791770495178842095}
   panelInventario: {fileID: 1791770496296609691}
+  panelInspectorQuests: {fileID: 0}
+  panelPersonajeQuests: {fileID: 0}
   vidaPlayer: {fileID: 1791770494827939062}
   manaPlayer: {fileID: 1791770496066159654}
   expPlayer: {fileID: 1791770495061565223}
@@ -8297,7 +8299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
