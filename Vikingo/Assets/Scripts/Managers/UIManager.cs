@@ -12,6 +12,8 @@ public class UIManager : Singleton<UIManager>
     [Header("Paneles")]
     [SerializeField] private GameObject panelStats;
     [SerializeField] private GameObject panelInventario;
+    [SerializeField] private GameObject panelInspectorQuests;
+    [SerializeField] private GameObject panelPersonajeQuests;
 
     [Header("Barra")]
     [SerializeField] private Image vidaPlayer;
@@ -137,5 +139,30 @@ public class UIManager : Singleton<UIManager>
         panelInventario.SetActive(!panelInventario.activeSelf);
     }
 
+    public void AbrirCerrarPanelPersonajeQuest()
+    {
+        panelPersonajeQuests.SetActive(!panelPersonajeQuests.activeSelf);
+    }
+
+    public void AbrirCerrarPanelInspectorQuests()
+    {
+        panelInspectorQuests.SetActive(!panelInspectorQuests.activeSelf);
+    }
+
+    public void AbrirPanelInteraccion(InteraccionExtraNPC tipoInteraccion)
+    {
+        switch (tipoInteraccion)
+        {
+            case InteraccionExtraNPC.Quests:
+                AbrirCerrarPanelInspectorQuests();
+                break;
+            case InteraccionExtraNPC.Tienda:
+                break;
+            case InteraccionExtraNPC.Crafting:
+                break;
+
+        }
+
+    }
     #endregion
 }

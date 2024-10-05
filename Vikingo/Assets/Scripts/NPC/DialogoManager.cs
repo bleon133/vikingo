@@ -44,10 +44,16 @@ public class DialogoManager : Singleton<DialogoManager>
 
         {
             if (despedidaMostrada)
-
             {
                 AbrirCerrarPanelDialogo(false);
                 despedidaMostrada = false;
+                return;
+            }
+
+            if (NPCDisponible.Dialogo.ContieneInteracionExtra)
+            {
+                UIManager.Instance.AbrirPanelInteraccion(NPCDisponible.Dialogo.InteraccionExtra);
+                AbrirCerrarPanelDialogo(false);
                 return;
             }
 

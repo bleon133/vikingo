@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: DialogoInspector
   m_EditorClassIdentifier: 
   Nombre: Inspector
-  Icono: {fileID: 21300000, guid: 4dfe4034ba5b4e547a01c51edbcd442a, type: 3}
+  Icono: {fileID: -1679895690, guid: e8a57adb82045204285666320d91313f, type: 3}
   ContieneInteracionExtra: 1
   InteraccionExtra: 0
-  Saludo: Hola, Tengo algunas cosas interesates en las que puedes ayudarme.
+  Saludo: "hola guerrero necesito reparar mi caba\xF1a. Tengo una mision para que
+    la cumpla."
   Conversacion: []
   Despedida: 
