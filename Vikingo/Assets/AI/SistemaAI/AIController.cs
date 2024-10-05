@@ -12,6 +12,8 @@ public class AIController : MonoBehaviour
 {
     public static Action<float> EventoDañoRealizado;
 
+    private Animator animator;
+
     [Header("Stats")]
     [SerializeField] private PersonajeStats stats;
 
