@@ -27,9 +27,9 @@ public class QuestManager : Singleton<QuestManager>
     {
         if (Input.GetKeyDown(KeyCode.V))
         {
-            AñadirProgreso("almacen", 1);
-            AñadirProgreso("taberna", 1);
-            AñadirProgreso("herreria", 1);
+            AñadirProgreso("Mata10", 1);
+            AñadirProgreso("Mata25", 1);
+            AñadirProgreso("Mata50", 1);
         }
     }
 

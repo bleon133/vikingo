@@ -49,6 +49,12 @@ public class Quest : ScriptableObject
         QuestCompletadoCheck = true;
         EventoQuestCompletado?.Invoke(this);
     }
+
+    private void OnEnable()
+    {
+        QuestCompletadoCheck = false;
+        CantidadActual = 0;
+    }
 }
 
   [Serializable]

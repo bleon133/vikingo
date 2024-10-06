@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b513b2e98963ca343a33bb1a1b61522f, type: 3}
-  m_Name: Mata10
+  m_Name: QuestMata25Enemigos
   m_EditorClassIdentifier: 
-  Nombre: 
-  ID: 
-  CantidadObjetivo: 0
+  Nombre: mision 1
+  ID: Mata25
+  CantidadObjetivo: 25
   Descripcion: 
-  RecompensaOro: 0
-  RecompensaExp: 0
+  RecompensaOro: 25
+  RecompensaExp: 10
   RecompensaItem:
-    Item: {fileID: 0}
-    Cantidad: 0
+    Item: {fileID: 11400000, guid: 72bdb5d5d6858984fab5c4daf08d2c1b, type: 2}
+    Cantidad: 2
   CantidadActual: 0
   QuestCompletadoCheck: 0

@@ -6,7 +6,7 @@ public class InspectorQuestDescripcion : QuestDescripcion
     public override void ConfigurarQuestUI(Quest quest)
     {
         base.ConfigurarQuestUI(quest);//llama la descripcion
-        QuestCargado = quest;
+        
         questRecompensa.text = $"-{quest.RecompensaOro} oro" +// mostrar la recompensa oro
                                $"\n-{quest.RecompensaExp} exp" +// mostrar la recompensa exp
                                $"\n-{quest.RecompensaItem.Item.Nombre} x{quest.RecompensaItem.Cantidad}";
@@ -16,12 +16,12 @@ public class InspectorQuestDescripcion : QuestDescripcion
 
     public void AceptarQuest()
     {
-        if (QuestCargado == null)
+        if (QuestPorCompletar == null)
         {
             return;
         }
 
-        QuestManager.Instance.AñadirQuest(QuestCargado);
+        QuestManager.Instance.AñadirQuest(QuestPorCompletar);
         gameObject.SetActive(false);
     }
 }
