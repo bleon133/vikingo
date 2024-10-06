@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd6fb1496c9f4b4092f6ea92a16285b, type: 3}
+  m_Name: Zanahoria
+  m_EditorClassIdentifier: 
+  seedName: Zanahoria
+  growthStages:
+  - {fileID: 351929171, guid: cf4180769eb288748be5618cad9ad7e3, type: 3}
+  - {fileID: 420726458, guid: cf4180769eb288748be5618cad9ad7e3, type: 3}
+  - {fileID: 859479278, guid: cf4180769eb288748be5618cad9ad7e3, type: 3}
+  - {fileID: -141131918, guid: cf4180769eb288748be5618cad9ad7e3, type: 3}
+  - {fileID: 2002127094, guid: cf4180769eb288748be5618cad9ad7e3, type: 3}
+  timePerStage: 10
