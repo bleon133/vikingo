@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class QuestManager : Singleton<QuestManager>
 {
@@ -18,6 +20,15 @@ public class QuestManager : Singleton<QuestManager>
     [SerializeField] private Transform personajeQuestContenedor;
 
 
+    [Header("Panel Quest Completado")]
+    [SerializeField] private GameObject panelQuestCompletado; //referencia del panel de misiones completado
+    [SerializeField] private TextMeshProUGUI questNombre; //referencia del nombre de misiones completado
+    [SerializeField] private TextMeshProUGUI questRecompensaOro; //recompensa del oro de misiones completado
+    [SerializeField] private TextMeshProUGUI questRecompensaExp; //recompensa del exp de misiones completado
+    [SerializeField] private TextMeshProUGUI questRecompensaItemCantidad; //recompensa del item de misiones completado
+    [SerializeField] private Image questRecompensaItemIcono; //recompensa de icono de misiones completado
+
+    public Quest QuestPorReclamar {  get; private set; }
     private void Start()
     {
         CargarQuestEnInspector();
@@ -72,5 +83,34 @@ public class QuestManager : Singleton<QuestManager>
         return null;
     }
 
+    private void MostrarQuestCompletado(Quest questCcompletado)//metodo de actualizar los componetes panel completado
+    {
+        panelQuestCompletado.SetActive(true);
+        questNombre.text = questCcompletado.Nombre;
+        questRecompensaOro.text = questCcompletado.RecompensaOro.ToString();
+        questRecompensaExp.text = questCcompletado.RecompensaExp.ToString();
+        questRecompensaItemCantidad.text = questCcompletado.RecompensaItem.Cantidad.ToString();
+        questRecompensaItemIcono.sprite = questCcompletado.RecompensaItem.Item.Icono;
 
+    }
+
+    private void QuestCompletadoRespuesta(Quest questCompletado) //llamar el metodo de questcompletado si existe
+    {
+        QuestPorReclamar = QuestExiste(questCompletado.ID);
+        if (QuestPorReclamar != null)
+        {
+            MostrarQuestCompletado(QuestPorReclamar);
+        }
+    }
+
+    private void OnEnable()
+    {
+        Quest.EventoQuestCompletado += QuestCompletadoRespuesta; //muestra el panel de mision completado
+
+    }
+
+    private void OnDisable()
+    {
+        Quest.EventoQuestCompletado -= QuestCompletadoRespuesta;
+    }
 }
