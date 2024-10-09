@@ -15,6 +15,7 @@ public class TileFarming : MonoBehaviour
     private SpriteRenderer spriteRenderer;  // Referencia al SpriteRenderer del tile
     private Coroutine growthCoroutine;  // Referencia al Coroutine de crecimiento
 
+    
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -35,7 +36,7 @@ public class TileFarming : MonoBehaviour
     }
 
     private IEnumerator GrowSeed()
-    { 
+    {
         // Crecimiento de la semilla solo para este tile
         while (growthStage < currentSeed.growthStages.Length)
         {
@@ -43,17 +44,17 @@ public class TileFarming : MonoBehaviour
             yield return new WaitForSeconds(currentSeed.timePerStage);
             growthStage++;
         }
+
         isReadyForHarvest = true;  // La cosecha está lista solo para este tile
+
+        // Instanciar el prefab de cosecha automáticamente al finalizar el ciclo de crecimiento
+        Instantiate(currentSeed.harvestPrefab, transform.position, Quaternion.identity);
+
+        // Volver al sprite inicial (tile vacío) después de instanciar el prefab
+        ResetTile();
     }
 
-    public void Harvest()
-    {
-        if (isReadyForHarvest)
-        {
-            // Reiniciar el tile
-            ResetTile();
-        }
-    }
+   
 
     private void ResetTile()
     {
@@ -71,11 +72,7 @@ public class TileFarming : MonoBehaviour
             PositionSelectionUI();
             seedSelectionUI.SetActive(true);
         }
-        else if (isReadyForHarvest)
-        {
-            Harvest();  // Cosechar si está listo
-        }
-
+        
     }
 
     public void SelectSeedFromDropdown()

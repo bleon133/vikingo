@@ -20,3 +20,4 @@ MonoBehaviour:
   - {fileID: 1593600013, guid: cf4180769eb288748be5618cad9ad7e3, type: 3}
   - {fileID: 1714452143, guid: cf4180769eb288748be5618cad9ad7e3, type: 3}
   timePerStage: 10
+  harvestPrefab: {fileID: 4375516697684535764, guid: 8027384ee0f08c04ebd406ce382796d6, type: 3}

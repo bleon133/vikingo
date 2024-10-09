@@ -2,17 +2,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonedasManager : MonoBehaviour
+public class MonedasManager : Singleton<MonedasManager>
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private int monedasTest;
+    public int MonedasTotales {  get; set; }//almacenar monedas total
+
+    private string KEY_MONEDAS = "MYJUEGOS_MONEDAS";//llave para guardar
+
+    private void Start()
     {
-        
+        PlayerPrefs.DeleteKey(KEY_MONEDAS);
+        CargarMonedas(); 
     }
 
-    // Update is called once per frame
-    void Update()
+    private void CargarMonedas()
+
     {
-        
+        MonedasTotales = PlayerPrefs.GetInt(KEY_MONEDAS, monedasTest); //cargar monedas
+
     }
+    public void AñadirMonedas(int cantidad)
+    {
+        MonedasTotales += cantidad;
+        PlayerPrefs.SetInt(KEY_MONEDAS, MonedasTotales);// guardar monedas
+        PlayerPrefs.Save();
+    }
+
+    public void RemoverMonedas(int cantidad) // remover monedas
+
+    {
+        if (cantidad > MonedasTotales)
+        {
+            return;
+        }
+
+        MonedasTotales -= cantidad;
+        PlayerPrefs.SetInt(KEY_MONEDAS, MonedasTotales);
+        PlayerPrefs.Save();
+    }
+
+
 }

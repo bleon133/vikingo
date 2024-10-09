@@ -6,6 +6,10 @@ using UnityEngine.UI;
 
 public class QuestManager : Singleton<QuestManager>
 {
+    [Header("Personaje")]
+    [SerializeField] private Personaje personaje;
+
+
     [Header("Quest")]
     [SerializeField]
     private Quest[] questDisponibles;//variables
@@ -64,6 +68,18 @@ public class QuestManager : Singleton<QuestManager>
     {
         AñadirQuestPorCompletar(questPorCompletar);
     }
+
+    public void  ReclamarRecompensa()
+    {
+        if (QuestPorReclamar == null)
+        {
+            return;
+        }
+
+        MonedasManager.Instance.AñadirMonedas(QuestPorReclamar.RecompensaOro);
+    }
+
+
 
     public void AñadirProgreso(string questID, int cantidad)
     {

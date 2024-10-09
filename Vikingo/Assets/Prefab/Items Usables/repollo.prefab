@@ -73,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 792551317
-  m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingLayer: 7
+  m_SortingOrder: 1
   m_Sprite: {fileID: 875257755, guid: b9e00b1882bba1d4dbdd39a8fe7a672e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -96,7 +96,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.002130866, y: -0.0010654032}
@@ -125,4 +125,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventarioItemReferencia: {fileID: 11400000, guid: c80bf408a9fee544a8fc3ea6c1f43875, type: 2}
-  cantidadPorAgregar: 60
+  cantidadPorAgregar: 1
