@@ -15,15 +15,16 @@ public class AccionSeguirPersonaje : AIAccion
         if (controller.PersonajeReferencia == null)
         {
             return;
-        
         }
+
         Vector3 dirHaciaPersonaje = controller.PersonajeReferencia.position - controller.transform.position;
-        Vector3 Direccion = dirHaciaPersonaje.normalized;
+        Vector3 direccion = dirHaciaPersonaje.normalized;
         float distancia = dirHaciaPersonaje.magnitude;
 
         if (distancia >= 1.30f)
         {
-            controller.transform.Translate(Direccion * controller.VelocidadMovimiento*Time.deltaTime);
+            controller.transform.Translate(
+                direccion * controller.VelocidadMovimiento * Time.deltaTime);
         }
     }
 }

@@ -21,7 +21,7 @@ public class AIController : MonoBehaviour
     [SerializeField] private AIEstado estadoInicial;
     [SerializeField] private AIEstado estadoDefault;
 
-    [Header("config")]
+    [Header("Config")]
     [SerializeField] private float rangoDeteccion;
     [SerializeField] private float rangoDeAtaque;
     [SerializeField] private float rangoDeEmbestida;
@@ -34,28 +34,24 @@ public class AIController : MonoBehaviour
     [SerializeField] private float tiempoEntreAtaques;
     [SerializeField] private TiposDeAtaque tipoAtaque;
 
-
     [Header("Debug")]
     [SerializeField] private bool mostrarDeteccion;
     [SerializeField] private bool mostrarRangoAtaque;
     [SerializeField] private bool mostrarRangoEmbestida;
 
-
-
     private float tiempoParaSiguienteAtaque;
-
     private BoxCollider2D _boxCollider2D;
+
     public Transform PersonajeReferencia { get; set; }
     public AIEstado EstadoActual { get; set; }
     public EnemigoMovimiento EnemigoMovimiento { get; set; }
-    public float Daño => daño;
     public float RangoDeteccion => rangoDeteccion;
+    public float Daño => daño;
     public TiposDeAtaque TipoAtaque => tipoAtaque;
     public float VelocidadMovimiento => velocidadMovimiento;
     public LayerMask PersonajeLayerMask => personajeLayerMask;
     public float RangoDeAtaqueDeterminado => tipoAtaque == TiposDeAtaque.Embestida ? rangoDeEmbestida : rangoDeAtaque;
 
-    
     private void Start()
     {
         _boxCollider2D = GetComponent<BoxCollider2D>();
@@ -65,9 +61,31 @@ public class AIController : MonoBehaviour
 
     private void Update()
     {
-        EstadoActual.EjecutarEstado(controller: this);
+        EstadoActual.EjecutarEstado(this);
         EnemigoMovimiento = GetComponent<EnemigoMovimiento>();
     }
+
+    public void CambiarEstado(AIEstado nuevoEstado)
+    {
+        if (nuevoEstado != estadoDefault)
+        {
+            EstadoActual = nuevoEstado;
+        }
+    }
+
+    public void AtaqueMelee(float cantidad)
+    {
+        if (PersonajeReferencia != null)
+        {
+            AplicarDañoAlPersonaje(cantidad);
+        }
+    }
+
+    public void AtaqueEmbestida(float cantidad)
+    {
+        StartCoroutine(IEEmbestida(cantidad));
+    }
+
     private IEnumerator IEEmbestida(float cantidad)
     {
         Vector3 personajePosicion = PersonajeReferencia.position;
@@ -79,7 +97,7 @@ public class AIController : MonoBehaviour
         float transicionDeAtaque = 0f;
         while (transicionDeAtaque <= 1f)
         {
-            transicionDeAtaque += Time.deltaTime + velocidadMovimiento;
+            transicionDeAtaque += Time.deltaTime * velocidadMovimiento;
             float interpolacion = (-Mathf.Pow(transicionDeAtaque, 2) + transicionDeAtaque) * 4f;
             transform.position = Vector3.Lerp(posicionInicial, posicionDeAtaque, interpolacion);
             yield return null;
@@ -106,29 +124,6 @@ public class AIController : MonoBehaviour
         EventoDañoRealizado?.Invoke(dañoPorRealizar);
     }
 
-    
-    public void CambiarEstado(AIEstado nuevoEstado)
-    {
-        if (nuevoEstado != estadoDefault)
-        {
-            EstadoActual = nuevoEstado;
-        }
-    }
-
-    public void AtaqueMelee(float cantidad)
-    {
-        if(PersonajeReferencia != null)
-        {
-            AplicarDañoAlPersonaje(cantidad);
-        }
-    }
-
-    public void AtaqueEmbestida(float cantidad)
-    {
-        StartCoroutine(IEEmbestida(cantidad));
-    }
-
-    
     public bool PersonajeEnRangoDeAtaque(float rango)
     {
         float distanciaHaciaPersonaje = (PersonajeReferencia.position - transform.position).sqrMagnitude;
@@ -136,22 +131,25 @@ public class AIController : MonoBehaviour
         {
             return true;
         }
+
         return false;
     }
+
     public bool EsTiempoDeAtacar()
     {
-        if(Time.time > tiempoParaSiguienteAtaque)
+        if (Time.time > tiempoParaSiguienteAtaque)
         {
             return true;
         }
 
-        return false;   
+        return false;
     }
 
     public void ActualizarTiempoEntreAtaques()
     {
         tiempoParaSiguienteAtaque = Time.time + tiempoEntreAtaques;
     }
+
     private void OnDrawGizmos()
     {
         if (mostrarDeteccion)

@@ -10,17 +10,15 @@ public class DecisionDetectarPersonaje : AIDecision
     {
         return DetectarPersonaje(controller);
     }
-    
+
     private bool DetectarPersonaje(AIController controller)
     {
-
-        Collider2D personajeDetectado = Physics2D.OverlapCircle((Vector2)controller.transform.position, controller.RangoDeteccion, (int)controller.PersonajeLayerMask);
-
+        Collider2D personajeDetectado = Physics2D.OverlapCircle(controller.transform.position,
+            controller.RangoDeteccion, controller.PersonajeLayerMask);
         if (personajeDetectado != null)
         {
             controller.PersonajeReferencia = personajeDetectado.transform;
             return true;
-
         }
 
         controller.PersonajeReferencia = null;

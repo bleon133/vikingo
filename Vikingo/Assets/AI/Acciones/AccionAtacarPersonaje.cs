@@ -10,6 +10,7 @@ public class AccionAtacarPersonaje : AIAccion
     {
         Atacar(controller);
     }
+
     private void Atacar(AIController controller)
     {
         if (controller.PersonajeReferencia == null)
@@ -19,7 +20,7 @@ public class AccionAtacarPersonaje : AIAccion
 
         if (controller.EsTiempoDeAtacar() == false)
         {
-            return; 
+            return;
         }
 
         if (controller.PersonajeEnRangoDeAtaque(controller.RangoDeAtaqueDeterminado))
@@ -31,12 +32,10 @@ public class AccionAtacarPersonaje : AIAccion
             else
             {
                 controller.AtaqueMelee(controller.Daño);
-
             }
+
             controller.ActualizarTiempoEntreAtaques();
         }
-
     }
-
 }
 

@@ -17,10 +17,11 @@ public class AIEstado : ScriptableObject
 
     private void EjecutarAcciones(AIController controller)
     {
-        if(Acciones == null || Acciones.Length <= 0)
+        if (Acciones == null || Acciones.Length <= 0)
         {
             return;
         }
+
         for (int i = 0; i < Acciones.Length; i++)
         {
             Acciones[i].Ejecutar(controller);
@@ -31,24 +32,20 @@ public class AIEstado : ScriptableObject
     {
         if (Transiciones == null || Transiciones.Length <= 0)
         {
-            return; 
+            return;
         }
 
-        for (int i =  0; i < Transiciones.Length; i++)
+        for (int i = 0; i < Transiciones.Length; i++)
         {
             bool decisionValor = Transiciones[i].Decision.Decidir(controller);
             if (decisionValor)
             {
                 controller.CambiarEstado(Transiciones[i].EstadoVerdadero);
-
             }
             else
             {
                 controller.CambiarEstado(Transiciones[i].EstadoFalso);
-
-
             }
         }
-
     }
 }
