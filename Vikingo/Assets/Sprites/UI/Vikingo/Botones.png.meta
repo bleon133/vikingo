@@ -68,7 +68,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BotonGrandeAmaillo
+      name: Botones_0
       rect:
         serializedVersion: 2
         x: 6
@@ -125,20 +125,20 @@ TextureImporter:
         width: 117
         height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c36dedcaec4df8d4d9f33324b6e28435
-      internalID: 2073014384
+      spriteID: 99b12c9d2dc3c5747997ae22f2b941dc
+      internalID: 1314992547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BotonGrandePresionadoAmaillo
+      name: Botones_1
       rect:
         serializedVersion: 2
         x: 134
@@ -146,20 +146,20 @@ TextureImporter:
         width: 117
         height: 54
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7e0344183e44f342af91057ce6d9687
-      internalID: 2054985327
+      spriteID: 4a43a832f0c1b6f44bbdb512171ec4a6
+      internalID: 1978675294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "BotonPeque\xF1oAmarillo"
+      name: Botones_2
       rect:
         serializedVersion: 2
         x: 287
@@ -167,20 +167,20 @@ TextureImporter:
         width: 68
         height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18cdd21925dd6e4f9451f562a347d1b
-      internalID: -1527954261
+      spriteID: f9831312e28b60f45964df374de49f3a
+      internalID: -2058799928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "BotonPeque\xF1oPresionadoAmarillo"
+      name: Botones_3
       rect:
         serializedVersion: 2
         x: 417
@@ -188,20 +188,20 @@ TextureImporter:
         width: 68
         height: 52
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 317993e10e53a89439c1549c10c07e77
-      internalID: -1202717607
+      spriteID: 2cb705ffb82979341acd95408d00a2ce
+      internalID: -1682357292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BotonGrandeMarron
+      name: Botones_4
       rect:
         serializedVersion: 2
         x: 6
@@ -209,20 +209,20 @@ TextureImporter:
         width: 117
         height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3487d791cf94842438450c50b88a2d8d
-      internalID: -1284338393
+      spriteID: 516bcb796f32f6f45aa3f4e07c6ac057
+      internalID: 1613901377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BotonGrandePresionadoMarron
+      name: Botones_5
       rect:
         serializedVersion: 2
         x: 134
@@ -230,20 +230,20 @@ TextureImporter:
         width: 117
         height: 54
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c365ef789d3043b469d7c99be10e809c
-      internalID: 1861019525
+      spriteID: cb3e3ba9fef109a4ea7432953906949e
+      internalID: 1358333958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "BotonPeque\xF1oMarron"
+      name: Botones_6
       rect:
         serializedVersion: 2
         x: 287
@@ -251,20 +251,20 @@ TextureImporter:
         width: 68
         height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ed1513251509ed42bffc0428a033453
-      internalID: -2029286245
+      spriteID: 63a5c06a1ad60814fa937a6efab0bd8d
+      internalID: -590193885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "BotonPeque\xF1oPresionadoMarron"
+      name: Botones_7
       rect:
         serializedVersion: 2
         x: 417
@@ -272,20 +272,20 @@ TextureImporter:
         width: 68
         height: 52
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6963717762abcac4596835b8bf5eee79
-      internalID: -639212270
+      spriteID: 94ffb2d69a152794f91d4e4c105ba9eb
+      internalID: -1534149546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BotonGrandeGris
+      name: Botones_8
       rect:
         serializedVersion: 2
         x: 6
@@ -293,20 +293,20 @@ TextureImporter:
         width: 117
         height: 62
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 377eff1799342434e8c57bb811c37722
-      internalID: 1249937801
+      spriteID: 9f236324fccd6824ab25cf1f89759d21
+      internalID: -1149089824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BotonGrandePresionadoGris
+      name: Botones_9
       rect:
         serializedVersion: 2
         x: 134
@@ -314,20 +314,20 @@ TextureImporter:
         width: 117
         height: 54
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 057e6c23d26bf5e489a6d2f14afd096f
-      internalID: 198299945
+      spriteID: 026178d3d45bd4845998a83c61845f92
+      internalID: -100467846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "BotonPeque\xF1oGris"
+      name: Botones_10
       rect:
         serializedVersion: 2
         x: 287
@@ -335,20 +335,20 @@ TextureImporter:
         width: 68
         height: 60
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a897bf04b4c52d449ce6faa9f531439
-      internalID: -1667932361
+      spriteID: c5f209cfe24ee684881b76506a2ca6bc
+      internalID: -975321012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "BotonPeque\xF1oPresionadoGris"
+      name: Botones_11
       rect:
         serializedVersion: 2
         x: 417
@@ -356,20 +356,20 @@ TextureImporter:
         width: 68
         height: 52
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f03e3efed1dc5247a46b993379ba138
-      internalID: 2055682061
+      spriteID: 2ef323f5a31a1964d90b944684357ea4
+      internalID: 1703022321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BotonesAmarillo
+      name: Botones_12
       rect:
         serializedVersion: 2
         x: 25
@@ -377,20 +377,20 @@ TextureImporter:
         width: 206
         height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8ffbe44f26d226439c657778caa028d
-      internalID: 1523406687
+      spriteID: 17b68a4c4fe564a40949dbeb2bcbb4ee
+      internalID: 1926724819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BotonesAmarilloPresionado
+      name: Botones_13
       rect:
         serializedVersion: 2
         x: 262
@@ -398,20 +398,20 @@ TextureImporter:
         width: 201
         height: 105
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c326c0cb487d30743ab04aa9274355a2
-      internalID: -191017667
+      spriteID: 0fd778c890ec9bd4ba1396f89354f4df
+      internalID: -309170097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BotonesMarron
+      name: Botones_14
       rect:
         serializedVersion: 2
         x: 21
@@ -419,20 +419,20 @@ TextureImporter:
         width: 206
         height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a80ee4397aff2748b133c39e293d33a
-      internalID: -252240216
+      spriteID: 5d40b1b1868878142abf017e5154b11f
+      internalID: -1008486258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BotonesMarronPresionado
+      name: Botones_15
       rect:
         serializedVersion: 2
         x: 262
@@ -440,20 +440,20 @@ TextureImporter:
         width: 206
         height: 105
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8745a1d5e8313e42ba050f5757e9dad
-      internalID: 513333703
+      spriteID: a9010a978b06a5e4382e10a526132442
+      internalID: -1022233201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BotonesGris
+      name: Botones_16
       rect:
         serializedVersion: 2
         x: 20
@@ -461,20 +461,20 @@ TextureImporter:
         width: 206
         height: 126
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fcbf6ae3c3794b43bc2459ada77dbe5
-      internalID: 755181256
+      spriteID: 77a99310651f2fa4bb433a5e811daf89
+      internalID: 1629937922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BotonesGrisPresionado
+      name: Botones_17
       rect:
         serializedVersion: 2
         x: 262
@@ -482,14 +482,14 @@ TextureImporter:
         width: 206
         height: 107
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6b272e2cee9e6847b0f4e995051fb89
-      internalID: 97250312
+      spriteID: 57c96dd9d51c32a4c9ab6354329c3811
+      internalID: 537147139
       vertices: []
       indices: 
       edges: []
@@ -505,24 +505,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BotonGrandeAmaillo: 2073014384
-      BotonGrandeGris: 1249937801
-      BotonGrandeMarron: -1284338393
-      BotonGrandePresionadoAmaillo: 2054985327
-      BotonGrandePresionadoGris: 198299945
-      BotonGrandePresionadoMarron: 1861019525
-      "BotonPeque\xF1oAmarillo": -1527954261
-      "BotonPeque\xF1oGris": -1667932361
-      "BotonPeque\xF1oMarron": -2029286245
-      "BotonPeque\xF1oPresionadoAmarillo": -1202717607
-      "BotonPeque\xF1oPresionadoGris": 2055682061
-      "BotonPeque\xF1oPresionadoMarron": -639212270
-      BotonesAmarillo: 1523406687
-      BotonesAmarilloPresionado: -191017667
-      BotonesGris: 755181256
-      BotonesGrisPresionado: 97250312
-      BotonesMarron: -252240216
-      BotonesMarronPresionado: 513333703
+      Botones_0: 1314992547
+      Botones_1: 1978675294
+      Botones_10: -975321012
+      Botones_11: 1703022321
+      Botones_12: 1926724819
+      Botones_13: -309170097
+      Botones_14: -1008486258
+      Botones_15: -1022233201
+      Botones_16: 1629937922
+      Botones_17: 537147139
+      Botones_2: -2058799928
+      Botones_3: -1682357292
+      Botones_4: 1613901377
+      Botones_5: 1358333958
+      Botones_6: -590193885
+      Botones_7: -1534149546
+      Botones_8: -1149089824
+      Botones_9: -100467846
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
