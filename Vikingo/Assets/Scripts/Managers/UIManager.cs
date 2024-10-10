@@ -25,6 +25,7 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private TextMeshProUGUI manaTMP;
     [SerializeField] private TextMeshProUGUI expTMP;
     [SerializeField] private TextMeshProUGUI nivelTMP;
+    [SerializeField] private TextMeshProUGUI monedasTMP;//cambiar el texto
 
     [Header("Stats")]
     [SerializeField] private TextMeshProUGUI statDañoTMP;
@@ -62,6 +63,8 @@ public class UIManager : Singleton<UIManager>
         vidaTMP.text = $"{vidaActual}/{vidaMax}";
         manaTMP.text = $"{manaActual}/{manaMax}";
         expTMP.text = $"{((expActual / expRequeridaNuevoNivel) * 100):F2}%";
+        monedasTMP.text = MonedasManager.Instance.MonedasTotales.ToString();//actualizar monedas
+
         if(stats.Nivel == 1)
         {
             nivelTMP.text = $"Thralls";
@@ -85,6 +88,7 @@ public class UIManager : Singleton<UIManager>
         else{
             nivelTMP.text = $"Nivel {stats.Nivel}";
         }
+
     }
 
     private void ActualizarPanelStats()
