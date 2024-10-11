@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6364238029072296983}
   - component: {fileID: 6770946040654499550}
-  - component: {fileID: 5374619234917911380}
   m_Layer: 0
   m_Name: Arbusto3
   m_TagString: Untagged
@@ -85,29 +84,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5374619234917911380
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6383058767662654142}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.011546969, y: -0.00044410676}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.390625, y: 0.375}
-    newSize: {x: 0.390625, y: 0.375}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.5203062, y: 0.46648747}
-  m_EdgeRadius: 0
