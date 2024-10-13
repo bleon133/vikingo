@@ -11,6 +11,7 @@ public class UIManager : Singleton<UIManager>
 
     [Header("Paneles")]
     [SerializeField] private GameObject panelStats;
+    [SerializeField] private GameObject panelTienda;
     [SerializeField] private GameObject panelInventario;
     [SerializeField] private GameObject panelInspectorQuests;
     [SerializeField] private GameObject panelPersonajeQuests;
@@ -56,7 +57,7 @@ public class UIManager : Singleton<UIManager>
 
     private void ActualizarUIPersonaje()
     {
-        vidaPlayer.fillAmount = Mathf.Lerp(vidaPlayer.fillAmount, vidaActual/vidaMax, 10f * Time.deltaTime);
+        vidaPlayer.fillAmount = Mathf.Lerp(vidaPlayer.fillAmount, vidaActual / vidaMax, 10f * Time.deltaTime);
         manaPlayer.fillAmount = Mathf.Lerp(manaPlayer.fillAmount, manaActual / manaMax, 10f * Time.deltaTime);
         expPlayer.fillAmount = Mathf.Lerp(expPlayer.fillAmount, expActual / expRequeridaNuevoNivel, 10f * Time.deltaTime);
 
@@ -65,7 +66,7 @@ public class UIManager : Singleton<UIManager>
         expTMP.text = $"{((expActual / expRequeridaNuevoNivel) * 100):F2}%";
         monedasTMP.text = MonedasManager.Instance.MonedasTotales.ToString();//actualizar monedas
 
-        if(stats.Nivel == 1)
+        if (stats.Nivel == 1)
         {
             nivelTMP.text = $"Thralls";
         }
@@ -85,7 +86,7 @@ public class UIManager : Singleton<UIManager>
         {
             nivelTMP.text = $"Konungr";
         }
-        else{
+        else {
             nivelTMP.text = $"Nivel {stats.Nivel}";
         }
 
@@ -93,7 +94,7 @@ public class UIManager : Singleton<UIManager>
 
     private void ActualizarPanelStats()
     {
-        if(panelStats.activeSelf == false)
+        if (panelStats.activeSelf == false)
         {
             return;
         }
@@ -124,7 +125,7 @@ public class UIManager : Singleton<UIManager>
         manaActual = pManaActual;
         manaMax = pManaMax;
     }
-    
+
     public void ActualizarExpPersonaje(float pExpActual, float pExpRequerida)
     {
         expActual = pExpActual;
@@ -138,7 +139,14 @@ public class UIManager : Singleton<UIManager>
         panelStats.SetActive(!panelStats.activeSelf);
     }
 
-    public void AbrirCerrarPanelInventario()
+    public void AbrirCerrarPanelTienda()
+
+    {
+        panelTienda.SetActive(!panelTienda.activeSelf);
+    }
+
+
+        public void AbrirCerrarPanelInventario()
     {
         panelInventario.SetActive(!panelInventario.activeSelf);
     }
@@ -161,6 +169,7 @@ public class UIManager : Singleton<UIManager>
                 AbrirCerrarPanelInspectorQuests();
                 break;
             case InteraccionExtraNPC.Tienda:
+                AbrirCerrarPanelTienda();
                 break;
             case InteraccionExtraNPC.Crafting:
                 break;

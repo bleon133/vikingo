@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49a8b0e429032c4fa40f37c1bce4e89, type: 3}
+  m_Name: ItemArmaBerserk
+  m_EditorClassIdentifier: 
+  ID: ArmaBerserk
+  Nombre: Berserk
+  Icono: {fileID: 21300000, guid: e613c1e90cc1db041932512da2d784f0, type: 3}
+  Descripcion: "La espada berserk, con su hoja negra y poderosa, es un arma legendaria
+    que simboliza la ferocidad de los guerreros n\xF3rdicos. Adornada con runas,
+    su dise\xF1o robusto y equilibrado permite ataques devastadores, mientras que
+    su empu\xF1adura asegura un agarre firme. Es un talism\xE1n de ira y coraje,
+    representando la destreza de los vikyngos berserkers."
+  Tipo: 0
+  EsConsumible: 0
+  EsAcumulable: 0
+  AcumulacionMax: 1
+  Cantidad: 0
+  Arma: {fileID: 11400000, guid: 0cd696887f47e5c4dad9fae1ee2d55d8, type: 2}
