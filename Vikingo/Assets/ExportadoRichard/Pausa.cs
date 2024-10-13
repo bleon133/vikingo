@@ -1,8 +1,16 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Pausa : MonoBehaviour
 {
     private bool isPaused = false; // Estado de pausa
+    public GameObject pauseMenu; // Referencia al menú de pausa
+
+    void Start()
+    {
+        // Asegúrate de que el menú de pausa esté oculto al inicio
+        pauseMenu.SetActive(false);
+    }
 
     void Update()
     {
@@ -21,13 +29,13 @@ public class Pausa : MonoBehaviour
         if (isPaused)
         {
             Time.timeScale = 0; // Detiene el tiempo
-            // Aquí puedes mostrar un menú de pausa si lo deseas
+            pauseMenu.SetActive(true); // Muestra el menú de pausa
             Debug.Log("Juego pausado.");
         }
         else
         {
             Time.timeScale = 1; // Reanuda el tiempo
-            // Aquí puedes ocultar el menú de pausa si lo deseas
+            pauseMenu.SetActive(false); // Oculta el menú de pausa
             Debug.Log("Juego reanudado.");
         }
     }

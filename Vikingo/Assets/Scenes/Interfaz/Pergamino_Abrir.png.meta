@@ -120,10 +120,10 @@ TextureImporter:
       name: Pergamino_Abrir_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 13
-        width: 955
-        height: 934
+        x: 0
+        y: 0
+        width: 960
+        height: 960
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: Pergamino_Abrir_1
       rect:
         serializedVersion: 2
-        x: 965
-        y: 59
-        width: 951
-        height: 842
+        x: 960
+        y: 0
+        width: 960
+        height: 960
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: Pergamino_Abrir_2
       rect:
         serializedVersion: 2
-        x: 1923
-        y: 108
-        width: 955
-        height: 744
+        x: 1920
+        y: 0
+        width: 960
+        height: 960
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: Pergamino_Abrir_3
       rect:
         serializedVersion: 2
-        x: 2884
-        y: 154
-        width: 952
-        height: 652
+        x: 2880
+        y: 0
+        width: 960
+        height: 960
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: Pergamino_Abrir_4
       rect:
         serializedVersion: 2
-        x: 3842
-        y: 203
-        width: 955
-        height: 554
+        x: 3840
+        y: 0
+        width: 960
+        height: 960
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Pergamino_Abrir_5
       rect:
         serializedVersion: 2
-        x: 4804
-        y: 252
-        width: 951
-        height: 456
+        x: 4810
+        y: 0
+        width: 960
+        height: 960
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: Pergamino_Abrir_6
       rect:
         serializedVersion: 2
-        x: 5762
-        y: 315
-        width: 955
-        height: 330
+        x: 5760
+        y: 0
+        width: 960
+        height: 960
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
