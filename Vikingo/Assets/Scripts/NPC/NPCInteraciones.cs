@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NPCInteraciones : MonoBehaviour
 {
-    [SerializeField] private GameObject npcButtonInteractuar;
+    //[SerializeField] private GameObject npcButtonInteractuar;
     [SerializeField] private NPCDialogo npcDialogo;
 
     public NPCDialogo Dialogo => npcDialogo;
@@ -12,10 +12,9 @@ public class NPCInteraciones : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-
         {
             DialogoManager.Instance.NPCDisponible = this;
-            npcButtonInteractuar.SetActive(true);
+            //npcButtonInteractuar.SetActive(true);
         }
     }
 
@@ -25,7 +24,7 @@ public class NPCInteraciones : MonoBehaviour
 
         {
             DialogoManager.Instance.NPCDisponible = null;
-            npcButtonInteractuar.SetActive(false);
+            //npcButtonInteractuar.SetActive(false);
         }
     }
 }

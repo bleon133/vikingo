@@ -64526,7 +64526,7 @@ GameObject:
   - component: {fileID: 6482776716272169092}
   - component: {fileID: 6482776716272169093}
   m_Layer: 0
-  m_Name: Scripts (1)
+  m_Name: BrilloManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65047,7 +65047,7 @@ GameObject:
   - component: {fileID: 2461728173283015953}
   - component: {fileID: 2461728173283015952}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Pergamino
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73914,6 +73914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: e1cefcdcdac524842b4a0ed252931529, type: 2}
   panelStats: {fileID: 7273028767965027439}
+  panelTienda: {fileID: 0}
   panelInventario: {fileID: 7273028766847296539}
   panelInspectorQuests: {fileID: 8970272109219584312}
   panelPersonajeQuests: {fileID: 802482052393109111}
@@ -79084,7 +79085,7 @@ GameObject:
   - component: {fileID: 7697806563247247539}
   - component: {fileID: 7697806563247247500}
   m_Layer: 0
-  m_Name: Sonido (1)
+  m_Name: Sonido
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

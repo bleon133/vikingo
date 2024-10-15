@@ -16,8 +16,11 @@ MonoBehaviour:
   Icono: {fileID: 2146241020, guid: e8a57adb82045204285666320d91313f, type: 3}
   ContieneInteracionExtra: 0
   InteraccionExtra: 0
-  Saludo: 'hola:'
+  Saludo: "\xA1Saludos, valiente! "
   Conversacion:
-  - Oracion: necesito  reconstruir mi casa estos son los materiales
-  - Oracion: "100 de madera \n50 de piedra "
-  Despedida: 'buena suerte en tu aventura '
+  - Oracion: Necesito que me ayudes a reparar mi almacen.
+  - Oracion: "Recoge los siguientes materiales y tr\xE1emelos. "
+  - Oracion: 100 de madera y 50 de piedra.
+  - Oracion: Con tu ayuda, podremos restaurarla.
+  - Oracion: "\xBFAceptas la misi\xF3n?"
+  Despedida: "\xA1Buena suerte en tu aventura!"
