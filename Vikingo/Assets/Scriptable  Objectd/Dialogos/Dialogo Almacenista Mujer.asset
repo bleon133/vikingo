@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6dd3fda039f5d74e9b33ab2f3b39fa4, type: 3}
+  m_Name: Dialogo Almacenista Mujer
+  m_EditorClassIdentifier: 
+  Nombre: 'Helga:'
+  Icono: {fileID: 490796854, guid: 5f650e909c6b81f4a96fb0a157e7bddc, type: 3}
+  ContieneInteracionExtra: 0
+  InteraccionExtra: 0
+  Saludo: "\xA1Saludos, valiente! "
+  Conversacion:
+  - Oracion: "Mi nombre es Helga. Este almac\xE9n\u2026 fue mi hogar, construido
+      por mis padres."
+  - Oracion: Los cruzados lo quemaron todo, destruyeron el trabajo de mi familia.
+  - Oracion: "Estoy reconstruy\xE9ndolo, pero no puedo hacerlo sola. Si puedes ayudarme,
+      juntos levantaremos algo m\xE1s fuerte, para que nuestra aldea sobreviva."
+  Despedida: "\xA1Buena suerte en t\xFA aventura!"

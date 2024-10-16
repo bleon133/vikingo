@@ -10,17 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6dd3fda039f5d74e9b33ab2f3b39fa4, type: 3}
-  m_Name: Dialogo Aldeano
+  m_Name: Dialogo Anciano
   m_EditorClassIdentifier: 
-  Nombre: 'jose:'
+  Nombre: 'Asmund:'
   Icono: {fileID: 2146241020, guid: e8a57adb82045204285666320d91313f, type: 3}
-  ContieneInteracionExtra: 0
+  ContieneInteracionExtra: 1
   InteraccionExtra: 0
-  Saludo: "\xA1Saludos, valiente! "
-  Conversacion:
-  - Oracion: Necesito que me ayudes a reparar mi almacen.
-  - Oracion: "Recoge los siguientes materiales y tr\xE1emelos. "
-  - Oracion: 100 de madera y 50 de piedra.
-  - Oracion: Con tu ayuda, podremos restaurarla.
-  - Oracion: "\xBFAceptas la misi\xF3n?"
-  Despedida: "\xA1Buena suerte en tu aventura!"
+  Saludo: "Saludos, guerrero. Soy Asmund. Nuestra aldea necesita de tu fuerza y valor.
+    Ay\xFAdanos en nuestras misiones, y los dioses te recompensar\xE1n. Juntos, levantaremos
+    este lugar."
+  Conversacion: []
+  Despedida: 

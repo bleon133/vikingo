@@ -6,7 +6,8 @@ public enum TiposDeItem
     Pociones,
     Pergaminos,
     Ingredientes,
-    Tesoros
+    Tesoros,
+    Recursos
 }
 
 public class InventarioItem : ScriptableObject 
