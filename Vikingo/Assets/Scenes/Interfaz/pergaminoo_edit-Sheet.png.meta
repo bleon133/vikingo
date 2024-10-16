@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 25d1f4c7c4c00dc48862a652c6663423
+guid: 9b760c96086258f4389c5f6df2624960
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -90,18 +90,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -117,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pergamino_Abrir_0
+      name: pergaminoo_edit-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 14
         y: 0
-        width: 960
-        height: 960
+        width: 637
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfa8bd8392053c9468c879ef9b6698b4
-      internalID: -1587213502
+      spriteID: 65613b68bb56592429009054808a5286
+      internalID: -277808481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pergamino_Abrir_1
+      name: pergaminoo_edit-Sheet_1
       rect:
         serializedVersion: 2
-        x: 960
+        x: 651
         y: 0
-        width: 960
-        height: 960
+        width: 637
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e0e16250e31924439e302ce38ac26ff
-      internalID: -234162936
+      spriteID: 052616eaed81e9541a2afaf8f6dd9943
+      internalID: -905771772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pergamino_Abrir_2
+      name: pergaminoo_edit-Sheet_2
       rect:
         serializedVersion: 2
-        x: 1920
+        x: 1288
         y: 0
-        width: 960
-        height: 960
+        width: 637
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89864a8da40906f4795d10de1d1a446c
-      internalID: -39689112
+      spriteID: 86d31619e80233d468b4aa76328cef96
+      internalID: 1526759627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pergamino_Abrir_3
+      name: pergaminoo_edit-Sheet_3
       rect:
         serializedVersion: 2
-        x: 2880
+        x: 1925
         y: 0
-        width: 960
-        height: 960
+        width: 637
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8d56b329dcf2fd4288dcf29de2323bd
-      internalID: -249019372
+      spriteID: 53b24c89abb88a14091e04010c209e7f
+      internalID: 1543834323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pergamino_Abrir_4
+      name: pergaminoo_edit-Sheet_4
       rect:
         serializedVersion: 2
-        x: 3840
+        x: 2562
         y: 0
-        width: 960
-        height: 960
+        width: 637
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30227532df3c7954fb48c16eaebba6a1
-      internalID: -705487325
+      spriteID: acd205b6d9f57a243b6c713fdc1ed47b
+      internalID: 1227700525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pergamino_Abrir_5
+      name: pergaminoo_edit-Sheet_5
       rect:
         serializedVersion: 2
-        x: 4810
+        x: 3199
         y: 0
-        width: 960
-        height: 960
+        width: 637
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,29 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee281428a22d07245b215ab41bcd26e2
-      internalID: -169045420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pergamino_Abrir_6
-      rect:
-        serializedVersion: 2
-        x: 5760
-        y: 0
-        width: 960
-        height: 960
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61b818dc895ad4648958706077675a27
-      internalID: -2009492183
+      spriteID: 4121818dbae45a64fafbca318817c722
+      internalID: -1223410476
       vertices: []
       indices: 
       edges: []
@@ -274,13 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pergamino_Abrir_0: -1587213502
-      Pergamino_Abrir_1: -234162936
-      Pergamino_Abrir_2: -39689112
-      Pergamino_Abrir_3: -249019372
-      Pergamino_Abrir_4: -705487325
-      Pergamino_Abrir_5: -169045420
-      Pergamino_Abrir_6: -2009492183
+      pergaminoo_edit-Sheet_0: -277808481
+      pergaminoo_edit-Sheet_1: -905771772
+      pergaminoo_edit-Sheet_2: 1526759627
+      pergaminoo_edit-Sheet_3: 1543834323
+      pergaminoo_edit-Sheet_4: 1227700525
+      pergaminoo_edit-Sheet_5: -1223410476
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
