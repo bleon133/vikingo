@@ -2597,6 +2597,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3456376739959517091, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: itemsDisponibles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456376739959517091, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: itemsDisponibles.Array.data[2].Item
+      value: 
+      objectReference: {fileID: 11400000, guid: 6f4d4ac4218336142a8824ed5d04818f, type: 2}
+    - target: {fileID: 3456376739959517091, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: itemsDisponibles.Array.data[2].Costo
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456376739959517091, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: itemsDisponibles.Array.data[0].Nombre
+      value: Cantimplora
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456376739959517091, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: itemsDisponibles.Array.data[1].Nombre
+      value: Cebolla
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456376739959517091, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: itemsDisponibles.Array.data[2].Nombre
+      value: Pergamino libre
+      objectReference: {fileID: 0}
     - target: {fileID: 3773707684001017667, guid: 3f66376288b39804299d73705995c227, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3070,7 +3094,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b377be1ad54f0f4c81c1bfebfb9e926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcButtonInteractuar: {fileID: 317971875}
   npcDialogo: {fileID: 11400000, guid: 389b795bca89c8d499f7ff444d8d7d41, type: 2}
 --- !u!61 &1248028299
 BoxCollider2D:
