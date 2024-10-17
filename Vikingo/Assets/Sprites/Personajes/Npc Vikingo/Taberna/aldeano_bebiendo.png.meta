@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ccad0e1cd61695041b5845a9cf7926aa
+guid: f2cf53208fbb1784f9e8f0c356203d46
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_0
+      name: aldeano_bebiendo_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,41 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a056ec0a6b6a6b5469ef920739ad854f
-      internalID: -2090186983
+      spriteID: d7647ea8f5a9c5448aa22f531346648e
+      internalID: -1039186913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 747104f5e00f7d84785fc58f29cf9685
-      internalID: 136011404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_2
+      name: aldeano_bebiendo_1
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,41 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3401e2637389b824e8e364c92e720b31
-      internalID: 1608165988
+      spriteID: e02d173547d829b4f8fd7ddc0dd7cb45
+      internalID: -1528552191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4e383707237e194b95b6896596e7627
-      internalID: -875232933
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_4
+      name: aldeano_bebiendo_2
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,41 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a308f032d906cc041afb0e50b174213f
-      internalID: 1352292481
+      spriteID: 825f03c196ce2b04386a8dc24d44b8df
+      internalID: 1010947266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31b9ad647f6c67441b46da70c9e18acc
-      internalID: 784263521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_6
+      name: aldeano_bebiendo_3
       rect:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,41 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 099a604371262724b8a87a5b81ab1501
-      internalID: 1490097992
+      spriteID: 475a3574eff691d43874c31cf8571513
+      internalID: 431788434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_7
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a407d022d18bdd429459123c1984b63
-      internalID: -114468409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_8
+      name: aldeano_bebiendo_4
       rect:
         serializedVersion: 2
         x: 512
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,41 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6aeebf3e2a1fa94489b87518a3fe732
-      internalID: 275881092
+      spriteID: 1f5e276e15701984b992fddfce927abc
+      internalID: 1585123159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_9
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b6f050de5336ab44abefafe02efa5be
-      internalID: 1347507902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_10
+      name: aldeano_bebiendo_5
       rect:
         serializedVersion: 2
         x: 640
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef77f86639167354e99f0c479b74b3b3
-      internalID: 1904738842
+      spriteID: 5c6cb57dc6d92bd4da458397d472a4d6
+      internalID: -1326467175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_11
+      name: aldeano_bebiendo_6
       rect:
         serializedVersion: 2
-        x: 704
+        x: 768
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,8 +257,218 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 895a511451cdcdf44948b2b8663e99e9
-      internalID: -150524449
+      spriteID: 0290fdf9b74f75243b86ade1979ca321
+      internalID: 664247365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aldeano_bebiendo_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96eb4649820124a43b101e3586d9168d
+      internalID: 1880713866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aldeano_bebiendo_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2723128b5c408c847acf4590520ad9f9
+      internalID: -244445519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aldeano_bebiendo_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed31ae6df43f3ba4092305f469147bdc
+      internalID: 404752951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aldeano_bebiendo_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cded67eb15bd5474cbec6b4a0d3e95a9
+      internalID: 411073649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aldeano_bebiendo_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e894f812df4d34aab8b4b610d8d92e
+      internalID: -970897620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aldeano_bebiendo_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4a3ae46e64d304f9bde7b47a503605
+      internalID: -313543339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aldeano_bebiendo_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b5eb5a0b99317428cc85571293d4ae
+      internalID: 2005415179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aldeano_bebiendo_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177c16c633115644badb39d095753cad
+      internalID: 823195296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aldeano_bebiendo_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e562f5394d939c048931a48dcb087f00
+      internalID: -2013420938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aldeano_bebiendo_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3500fb7711b1ea438164e7b7b6e8c48
+      internalID: 125906808
       vertices: []
       indices: 
       edges: []
@@ -379,18 +484,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mujer_Taberna_Idle_Abajo_0: -2090186983
-      Mujer_Taberna_Idle_Abajo_1: 136011404
-      Mujer_Taberna_Idle_Abajo_10: 1904738842
-      Mujer_Taberna_Idle_Abajo_11: -150524449
-      Mujer_Taberna_Idle_Abajo_2: 1608165988
-      Mujer_Taberna_Idle_Abajo_3: -875232933
-      Mujer_Taberna_Idle_Abajo_4: 1352292481
-      Mujer_Taberna_Idle_Abajo_5: 784263521
-      Mujer_Taberna_Idle_Abajo_6: 1490097992
-      Mujer_Taberna_Idle_Abajo_7: -114468409
-      Mujer_Taberna_Idle_Abajo_8: 275881092
-      Mujer_Taberna_Idle_Abajo_9: 1347507902
+      aldeano_bebiendo_0: -1039186913
+      aldeano_bebiendo_1: -1528552191
+      aldeano_bebiendo_10: 411073649
+      aldeano_bebiendo_11: -970897620
+      aldeano_bebiendo_12: -313543339
+      aldeano_bebiendo_13: 2005415179
+      aldeano_bebiendo_14: 823195296
+      aldeano_bebiendo_15: -2013420938
+      aldeano_bebiendo_16: 125906808
+      aldeano_bebiendo_2: 1010947266
+      aldeano_bebiendo_3: 431788434
+      aldeano_bebiendo_4: 1585123159
+      aldeano_bebiendo_5: -1326467175
+      aldeano_bebiendo_6: 664247365
+      aldeano_bebiendo_7: 1880713866
+      aldeano_bebiendo_8: -244445519
+      aldeano_bebiendo_9: 404752951
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

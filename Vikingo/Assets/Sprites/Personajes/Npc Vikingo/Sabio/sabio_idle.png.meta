@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ccad0e1cd61695041b5845a9cf7926aa
+guid: 00164ef84e7182b4d9e498f9c5420ba1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_0
+      name: sabio_idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -125,20 +125,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a056ec0a6b6a6b5469ef920739ad854f
-      internalID: -2090186983
+      spriteID: a36a6bf4344824049a3c0a0943591842
+      internalID: 835301360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_1
+      name: sabio_idle_1
       rect:
         serializedVersion: 2
         x: 64
@@ -146,20 +146,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 747104f5e00f7d84785fc58f29cf9685
-      internalID: 136011404
+      spriteID: b2d3ac7043c4e9444bd9fbc0db9b1fc4
+      internalID: -1420393518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_2
+      name: sabio_idle_2
       rect:
         serializedVersion: 2
         x: 128
@@ -167,20 +167,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3401e2637389b824e8e364c92e720b31
-      internalID: 1608165988
+      spriteID: e48647a804c4e8b46a07abbe9ea7e58d
+      internalID: 1450836817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_3
+      name: sabio_idle_3
       rect:
         serializedVersion: 2
         x: 192
@@ -188,20 +188,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4e383707237e194b95b6896596e7627
-      internalID: -875232933
+      spriteID: 83ef4c9e4faa3c046804f79f27ad7088
+      internalID: 627408896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_4
+      name: sabio_idle_4
       rect:
         serializedVersion: 2
         x: 256
@@ -209,20 +209,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a308f032d906cc041afb0e50b174213f
-      internalID: 1352292481
+      spriteID: 51b2c1bc76390d24687bd6fa5b395994
+      internalID: 1556092205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_5
+      name: sabio_idle_5
       rect:
         serializedVersion: 2
         x: 320
@@ -230,20 +230,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31b9ad647f6c67441b46da70c9e18acc
-      internalID: 784263521
+      spriteID: edcf6e65f789be443b0a2490b0fa590f
+      internalID: -874180395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_6
+      name: sabio_idle_6
       rect:
         serializedVersion: 2
         x: 384
@@ -251,20 +251,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 099a604371262724b8a87a5b81ab1501
-      internalID: 1490097992
+      spriteID: aba5521264c8a1046b8f37c02a4cd424
+      internalID: -782658232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_7
+      name: sabio_idle_7
       rect:
         serializedVersion: 2
         x: 448
@@ -272,20 +272,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a407d022d18bdd429459123c1984b63
-      internalID: -114468409
+      spriteID: 571fcfa5a8f2d91458308aeb428ac2b3
+      internalID: -475098794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_8
+      name: sabio_idle_8
       rect:
         serializedVersion: 2
         x: 512
@@ -293,20 +293,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6aeebf3e2a1fa94489b87518a3fe732
-      internalID: 275881092
+      spriteID: 3bc5e6cd3af80304b8507f40f7a24b03
+      internalID: 7669148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_9
+      name: sabio_idle_9
       rect:
         serializedVersion: 2
         x: 576
@@ -314,20 +314,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b6f050de5336ab44abefafe02efa5be
-      internalID: 1347507902
+      spriteID: f4e67c4b712c75946be4fac8ec07388a
+      internalID: 1715792452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_10
+      name: sabio_idle_10
       rect:
         serializedVersion: 2
         x: 640
@@ -335,20 +335,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef77f86639167354e99f0c479b74b3b3
-      internalID: 1904738842
+      spriteID: 606c5813d9466754792dd6ffff0156a4
+      internalID: 435406047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_11
+      name: sabio_idle_11
       rect:
         serializedVersion: 2
         x: 704
@@ -356,14 +356,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 895a511451cdcdf44948b2b8663e99e9
-      internalID: -150524449
+      spriteID: 2a8cf6f816e1ee24797f2ed3c68a9515
+      internalID: -756529276
       vertices: []
       indices: 
       edges: []
@@ -379,18 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mujer_Taberna_Idle_Abajo_0: -2090186983
-      Mujer_Taberna_Idle_Abajo_1: 136011404
-      Mujer_Taberna_Idle_Abajo_10: 1904738842
-      Mujer_Taberna_Idle_Abajo_11: -150524449
-      Mujer_Taberna_Idle_Abajo_2: 1608165988
-      Mujer_Taberna_Idle_Abajo_3: -875232933
-      Mujer_Taberna_Idle_Abajo_4: 1352292481
-      Mujer_Taberna_Idle_Abajo_5: 784263521
-      Mujer_Taberna_Idle_Abajo_6: 1490097992
-      Mujer_Taberna_Idle_Abajo_7: -114468409
-      Mujer_Taberna_Idle_Abajo_8: 275881092
-      Mujer_Taberna_Idle_Abajo_9: 1347507902
+      sabio_idle_0: 835301360
+      sabio_idle_1: -1420393518
+      sabio_idle_10: 435406047
+      sabio_idle_11: -756529276
+      sabio_idle_2: 1450836817
+      sabio_idle_3: 627408896
+      sabio_idle_4: 1556092205
+      sabio_idle_5: -874180395
+      sabio_idle_6: -782658232
+      sabio_idle_7: -475098794
+      sabio_idle_8: 7669148
+      sabio_idle_9: 1715792452
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

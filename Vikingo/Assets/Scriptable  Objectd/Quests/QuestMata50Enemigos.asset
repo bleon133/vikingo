@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b513b2e98963ca343a33bb1a1b61522f, type: 3}
   m_Name: QuestMata50Enemigos
   m_EditorClassIdentifier: 
-  Nombre: mision 1
+  Nombre: "Misi\xF3n cazar 50"
   ID: Mata50
   CantidadObjetivo: 50
   Descripcion: 
