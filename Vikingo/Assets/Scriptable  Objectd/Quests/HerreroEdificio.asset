@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b513b2e98963ca343a33bb1a1b61522f, type: 3}
-  m_Name: QuestMata10Enemigos
+  m_Name: HerreroEdificio
   m_EditorClassIdentifier: 
-  Nombre: "Misi\xF3n cazar 10"
-  ID: Mata10
-  CantidadObjetivo: 10
+  Nombre: "Misi\xF3n herrero"
+  ID: 
+  CantidadObjetivo: 0
   Descripcion: 
-  RecompensaOro: 15
-  RecompensaExp: 5
+  RecompensaOro: 100
+  RecompensaExp: 0
   RecompensaItem:
-    Item: {fileID: 11400000, guid: cd6af2ae4719b454fa18072696bd3acd, type: 2}
-    Cantidad: 1
+    Item: {fileID: 0}
+    Cantidad: 0
   CantidadActual: 0
   QuestCompletadoCheck: 0

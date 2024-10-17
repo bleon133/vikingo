@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ccad0e1cd61695041b5845a9cf7926aa
+guid: 340a749c862f00244a2bfb73f561f8b7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_0
+      name: Aldeana_Inicio_Idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a056ec0a6b6a6b5469ef920739ad854f
-      internalID: -2090186983
+      spriteID: 30637f3bda31a80409ea58f864b9d70d
+      internalID: -2045825364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_1
+      name: Aldeana_Inicio_Idle_1
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 747104f5e00f7d84785fc58f29cf9685
-      internalID: 136011404
+      spriteID: 99c235dfc58df324ea298dbb41ccf8f4
+      internalID: 2020355835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_2
+      name: Aldeana_Inicio_Idle_2
       rect:
         serializedVersion: 2
         x: 128
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3401e2637389b824e8e364c92e720b31
-      internalID: 1608165988
+      spriteID: 19569c0164b53c440b8164d6ab216d8e
+      internalID: 116512281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_3
+      name: Aldeana_Inicio_Idle_3
       rect:
         serializedVersion: 2
         x: 192
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4e383707237e194b95b6896596e7627
-      internalID: -875232933
+      spriteID: ced8a015d8ff1b34d8906953291f54da
+      internalID: -1909340062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_4
+      name: Aldeana_Inicio_Idle_4
       rect:
         serializedVersion: 2
         x: 256
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a308f032d906cc041afb0e50b174213f
-      internalID: 1352292481
+      spriteID: d17f69ccdbe27264a8dd2e072715179a
+      internalID: 29897108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_5
+      name: Aldeana_Inicio_Idle_5
       rect:
         serializedVersion: 2
         x: 320
@@ -236,14 +236,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31b9ad647f6c67441b46da70c9e18acc
-      internalID: 784263521
+      spriteID: b19fe5936e374ce4886503001dc25329
+      internalID: -1930213800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_6
+      name: Aldeana_Inicio_Idle_6
       rect:
         serializedVersion: 2
         x: 384
@@ -257,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 099a604371262724b8a87a5b81ab1501
-      internalID: 1490097992
+      spriteID: 7e54b7caf952a55479edd1d36c521177
+      internalID: -1868244575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_7
+      name: Aldeana_Inicio_Idle_7
       rect:
         serializedVersion: 2
         x: 448
@@ -278,14 +278,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a407d022d18bdd429459123c1984b63
-      internalID: -114468409
+      spriteID: 4e3372e694bac6e46a357bb2ccdeb8d6
+      internalID: 2000133087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_8
+      name: Aldeana_Inicio_Idle_8
       rect:
         serializedVersion: 2
         x: 512
@@ -299,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6aeebf3e2a1fa94489b87518a3fe732
-      internalID: 275881092
+      spriteID: 752a5b741eabb274394d12e9055559a4
+      internalID: 1859747341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_9
+      name: Aldeana_Inicio_Idle_9
       rect:
         serializedVersion: 2
         x: 576
@@ -320,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b6f050de5336ab44abefafe02efa5be
-      internalID: 1347507902
+      spriteID: 87769362878da1644891d40bf789a23a
+      internalID: -1787816085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_10
+      name: Aldeana_Inicio_Idle_10
       rect:
         serializedVersion: 2
         x: 640
@@ -341,14 +341,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef77f86639167354e99f0c479b74b3b3
-      internalID: 1904738842
+      spriteID: 0206a210858583943a2c0540a0941737
+      internalID: 1160294261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mujer_Taberna_Idle_Abajo_11
+      name: Aldeana_Inicio_Idle_11
       rect:
         serializedVersion: 2
         x: 704
@@ -362,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 895a511451cdcdf44948b2b8663e99e9
-      internalID: -150524449
+      spriteID: 32aaa53041413a3419cde26605f84e9d
+      internalID: -790317634
       vertices: []
       indices: 
       edges: []
@@ -379,18 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mujer_Taberna_Idle_Abajo_0: -2090186983
-      Mujer_Taberna_Idle_Abajo_1: 136011404
-      Mujer_Taberna_Idle_Abajo_10: 1904738842
-      Mujer_Taberna_Idle_Abajo_11: -150524449
-      Mujer_Taberna_Idle_Abajo_2: 1608165988
-      Mujer_Taberna_Idle_Abajo_3: -875232933
-      Mujer_Taberna_Idle_Abajo_4: 1352292481
-      Mujer_Taberna_Idle_Abajo_5: 784263521
-      Mujer_Taberna_Idle_Abajo_6: 1490097992
-      Mujer_Taberna_Idle_Abajo_7: -114468409
-      Mujer_Taberna_Idle_Abajo_8: 275881092
-      Mujer_Taberna_Idle_Abajo_9: 1347507902
+      Aldeana_Inicio_Idle_0: -2045825364
+      Aldeana_Inicio_Idle_1: 2020355835
+      Aldeana_Inicio_Idle_10: 1160294261
+      Aldeana_Inicio_Idle_11: -790317634
+      Aldeana_Inicio_Idle_2: 116512281
+      Aldeana_Inicio_Idle_3: -1909340062
+      Aldeana_Inicio_Idle_4: 29897108
+      Aldeana_Inicio_Idle_5: -1930213800
+      Aldeana_Inicio_Idle_6: -1868244575
+      Aldeana_Inicio_Idle_7: 2000133087
+      Aldeana_Inicio_Idle_8: 1859747341
+      Aldeana_Inicio_Idle_9: -1787816085
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
