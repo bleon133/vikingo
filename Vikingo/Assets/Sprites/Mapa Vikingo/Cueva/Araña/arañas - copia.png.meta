@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 62b31784e08f9f44585b4c470d4960d2
+guid: 2eaf3530eeac1b64d9728af988cc1921
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,7 +93,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_0
+      name: "ara\xF1as - copia_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -107,14 +107,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa16d63e7f8072d448bd5c55f29a1dba
-      internalID: 364130046
+      spriteID: c5b57008ecf3f294d8e02e1849ac8792
+      internalID: -906284769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_1
+      name: "ara\xF1as - copia_1"
       rect:
         serializedVersion: 2
         x: 64
@@ -128,14 +128,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b337c4bcda81a3a45a0769926ad9c48c
-      internalID: 588308453
+      spriteID: 362e305bd3f3ccb4a9cee4a3c4959c41
+      internalID: -15855996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_2
+      name: "ara\xF1as - copia_2"
       rect:
         serializedVersion: 2
         x: 128
@@ -149,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f22d4ba77884cb42a57bd1e8754e784
-      internalID: 943780499
+      spriteID: 9a2edea384ac2f24184b6151cdc88f2a
+      internalID: -1553709180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_3
+      name: "ara\xF1as - copia_3"
       rect:
         serializedVersion: 2
         x: 192
@@ -170,14 +170,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f1b9cd11a3fcbd429f19bcc16a97626
-      internalID: -992534905
+      spriteID: 15b685f7d45206f46a579b3c9392f1be
+      internalID: -1334885241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_4
+      name: "ara\xF1as - copia_4"
       rect:
         serializedVersion: 2
         x: 256
@@ -191,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 903e10b1c5586844e944ff4493496898
-      internalID: 962610870
+      spriteID: 56c428274e46b96489da3c65c51e0a3d
+      internalID: -188482023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_5
+      name: "ara\xF1as - copia_5"
       rect:
         serializedVersion: 2
         x: 320
@@ -212,14 +212,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14f4278b9d349fe42b07803660185cef
-      internalID: 350044216
+      spriteID: 567ee03673bf19245bb4c1b59cb252ec
+      internalID: 2127777382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_6
+      name: "ara\xF1as - copia_6"
       rect:
         serializedVersion: 2
         x: 384
@@ -233,14 +233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bc58cd8cc7b2cc4ea0e0f8b20438dc3
-      internalID: -409115511
+      spriteID: 25b49d54703ce6645968aa381076b348
+      internalID: -2109591123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_7
+      name: "ara\xF1as - copia_7"
       rect:
         serializedVersion: 2
         x: 448
@@ -254,14 +254,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08a3f25e338fb744098358db3c971270
-      internalID: -1424659944
+      spriteID: a67fbdcb305d7ab4bb0d7f7898cb1361
+      internalID: 130432855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_8
+      name: "ara\xF1as - copia_8"
       rect:
         serializedVersion: 2
         x: 512
@@ -275,14 +275,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c826f34774a78734b8560e1066f96d9a
-      internalID: -262660126
+      spriteID: 7b49a8c027079f643af16640974d7396
+      internalID: 1939957495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_9
+      name: "ara\xF1as - copia_9"
       rect:
         serializedVersion: 2
         x: 576
@@ -296,14 +296,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 485e16518749dae4da2e2d615040bb1c
-      internalID: -577103688
+      spriteID: 6ff5d181b2bc79342b22579131704eab
+      internalID: -339943788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_10
+      name: "ara\xF1as - copia_10"
       rect:
         serializedVersion: 2
         x: 640
@@ -317,14 +317,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfa4f2f39d15cf7418c14fa7679a8213
-      internalID: -200829786
+      spriteID: 5bf2890f5d47ab34da844653925823a8
+      internalID: -717571636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_11
+      name: "ara\xF1as - copia_11"
       rect:
         serializedVersion: 2
         x: 704
@@ -338,14 +338,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f330e42920a0c6a428b6626ab92a4fc5
-      internalID: -1903164184
+      spriteID: 236b752ff6aa37341be0bb71919dce27
+      internalID: -1903805367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_12
+      name: "ara\xF1as - copia_12"
       rect:
         serializedVersion: 2
         x: 768
@@ -359,14 +359,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff2552e9154fb9742a935ac16422eec7
-      internalID: 2114903934
+      spriteID: d2615dab43dd7514ca3e06c99b8583de
+      internalID: -250397624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WhatsApp Image 2024-10-16 at 8.09.59 PM_13
+      name: "ara\xF1as - copia_13"
       rect:
         serializedVersion: 2
         x: 832
@@ -380,8 +380,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e12195eb7908ea498a71d18489ef7ed
-      internalID: 131955458
+      spriteID: 2dd51ba0cd97fd645bd43c2d0fa63f76
+      internalID: -449328449
       vertices: []
       indices: 
       edges: []
@@ -397,20 +397,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_0: 364130046
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_1: 588308453
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_10: -200829786
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_11: -1903164184
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_12: 2114903934
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_13: 131955458
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_2: 943780499
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_3: -992534905
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_4: 962610870
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_5: 350044216
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_6: -409115511
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_7: -1424659944
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_8: -262660126
-      WhatsApp Image 2024-10-16 at 8.09.59 PM_9: -577103688
+      "ara\xF1as - copia_0": -906284769
+      "ara\xF1as - copia_1": -15855996
+      "ara\xF1as - copia_10": -717571636
+      "ara\xF1as - copia_11": -1903805367
+      "ara\xF1as - copia_12": -250397624
+      "ara\xF1as - copia_13": -449328449
+      "ara\xF1as - copia_2": -1553709180
+      "ara\xF1as - copia_3": -1334885241
+      "ara\xF1as - copia_4": -188482023
+      "ara\xF1as - copia_5": 2127777382
+      "ara\xF1as - copia_6": -2109591123
+      "ara\xF1as - copia_7": 130432855
+      "ara\xF1as - copia_8": 1939957495
+      "ara\xF1as - copia_9": -339943788
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
