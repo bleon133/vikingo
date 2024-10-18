@@ -12,19 +12,28 @@ public class Singleton<T> : MonoBehaviour where T : Component
             if (_instance == null)
             {
                 _instance = FindObjectOfType<T>();
-                if(_instance != null)
+
+                if (_instance == null)
                 {
-                    GameObject nuevoGO = new GameObject();
-                    _instance = nuevoGO.AddComponent<T>();
+                    GameObject obj = new GameObject();
+                    _instance = obj.AddComponent<T>();
+                    obj.name = typeof(T).Name;
                 }
             }
-
             return _instance;
         }
     }
 
     protected virtual void Awake()
     {
-        _instance = this as T;
+        if (_instance == null)
+        {
+            _instance = this as T;
+            DontDestroyOnLoad(gameObject); // No destruir al cambiar de escena
+        }
+        else
+        {
+            Destroy(gameObject); // Elimina duplicados al regresar a una escena anterior
+        }
     }
 }
