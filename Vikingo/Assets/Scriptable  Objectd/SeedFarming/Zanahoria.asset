@@ -19,5 +19,5 @@ MonoBehaviour:
   - {fileID: 859479278, guid: cf4180769eb288748be5618cad9ad7e3, type: 3}
   - {fileID: -141131918, guid: cf4180769eb288748be5618cad9ad7e3, type: 3}
   - {fileID: 2002127094, guid: cf4180769eb288748be5618cad9ad7e3, type: 3}
-  timePerStage: 10
+  timePerStage: 120
   harvestPrefab: {fileID: 1483196499795278806, guid: 62a486e7055fb8242afc9e3cb2136d0b, type: 3}

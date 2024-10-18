@@ -4468,7 +4468,7 @@ GameObject:
   - component: {fileID: 1653662711}
   - component: {fileID: 1653662710}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Aldea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4486,9 +4486,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c4d5643c01e544083886a995fade77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
-  targetPosition: {x: 0, y: 0, z: 0}
-  playerInstance: {fileID: 0}
+  escenaDestino: LevelDestruido
+  posicionDestino: {x: 1, y: 0}
 --- !u!61 &1653662711
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4499,7 +4498,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.5224098, y: 0}
