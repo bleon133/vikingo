@@ -889,9 +889,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c4d5643c01e544083886a995fade77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Bosque
-  targetPosition: {x: 0, y: 0, z: 0}
-  playerInstance: {fileID: 1133385726}
+  escenaDestino: Bosque
+  posicionDestino: {x: 0, y: 0}
 --- !u!61 &27792894
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45807,9 +45806,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c4d5643c01e544083886a995fade77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Herreria
-  targetPosition: {x: 0, y: 0, z: 0}
-  playerInstance: {fileID: 1133385726}
+  escenaDestino: Herreria
+  posicionDestino: {x: 0, y: 0}
 --- !u!61 &599769335
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46206,9 +46204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c4d5643c01e544083886a995fade77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Taberna
-  targetPosition: {x: 0, y: 0, z: 0}
-  playerInstance: {fileID: 1133385726}
+  escenaDestino: Taberna
+  posicionDestino: {x: 0, y: 0}
 --- !u!61 &626880172
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51901,9 +51898,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c4d5643c01e544083886a995fade77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Mina
-  targetPosition: {x: 0, y: 0, z: 0}
-  playerInstance: {fileID: 1133385726}
+  escenaDestino: Mina
+  posicionDestino: {x: 0, y: 0}
 --- !u!61 &1014243346
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53139,11 +53135,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8956990803763495404, guid: d7d51c91ca42c3b4fac49c6b059c5fdb, type: 3}
   m_PrefabInstance: {fileID: 1412088735631696835}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1133385726 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1447010743705193009, guid: 3f66376288b39804299d73705995c227, type: 3}
-  m_PrefabInstance: {fileID: 137411843}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1133863274 stripped
 Transform:
@@ -71433,9 +71424,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c4d5643c01e544083886a995fade77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SalonComunal
-  targetPosition: {x: 0, y: 0, z: 0}
-  playerInstance: {fileID: 1133385726}
+  escenaDestino: SalonComunal
+  posicionDestino: {x: 0, y: 0}
 --- !u!61 &1700338321
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -75409,9 +75399,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c4d5643c01e544083886a995fade77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Almacen
-  targetPosition: {x: 0, y: 0, z: 0}
-  playerInstance: {fileID: 1133385726}
+  escenaDestino: Almacen
+  posicionDestino: {x: 1.5, y: -3}
 --- !u!61 &1922181336
 BoxCollider2D:
   m_ObjectHideFlags: 0
