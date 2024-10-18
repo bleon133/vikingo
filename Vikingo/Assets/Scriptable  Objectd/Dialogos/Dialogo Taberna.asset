@@ -13,9 +13,17 @@ MonoBehaviour:
   m_Name: Dialogo Taberna
   m_EditorClassIdentifier: 
   Nombre: 'Freya:'
-  Icono: {fileID: 0}
+  Icono: {fileID: 1430947018, guid: 5f650e909c6b81f4a96fb0a157e7bddc, type: 3}
   ContieneInteracionExtra: 0
   InteraccionExtra: 0
-  Saludo: 
-  Conversacion: []
-  Despedida: 
+  Saludo: "\xA1Saludos, viajero!"
+  Conversacion:
+  - Oracion: "Esta taberna fue construida por mis padres, quienes so\xF1aron con
+      un lugar donde los vikingos pudieran reunirse y celebrar."
+  - Oracion: "Los Cruzados han destrozado ese sue\xF1o. Es doloroso ver c\xF3mo lo
+      que mis padres construyeron ha ca\xEDdo en ruinas.\r"
+  - Oracion: "Si logramos reconstruir, no solo restauraremos un edificio, sino el
+      esp\xEDritu de nuestra comunidad.\r"
+  Despedida: "Por favor, valiente, considera ayudar a reconstruir este lugar. Necesitamos
+    una casa donde compartir historias y risas de nuevo. Tu esfuerzo ser\xE1 recordado
+    por todos.\r"

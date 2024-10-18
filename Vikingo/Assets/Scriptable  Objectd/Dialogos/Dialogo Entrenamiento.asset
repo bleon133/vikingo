@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6dd3fda039f5d74e9b33ab2f3b39fa4, type: 3}
+  m_Name: Dialogo Entrenamiento
+  m_EditorClassIdentifier: 
+  Nombre: 'Sigurd:'
+  Icono: {fileID: -1121355763, guid: 74df9091f748e92419360e75d476fa3a, type: 3}
+  ContieneInteracionExtra: 0
+  InteraccionExtra: 0
+  Saludo: "\xA1Honor y victoria!"
+  Conversacion:
+  - Oracion: "Desde joven, me he dedicado a guiar a los guerreros de nuestra aldea.
+      Mi misi\xF3n es asegurar que todos reciban el entrenamiento necesario y los
+      recursos para mantenerse fuertes.\r\n"
+  - Oracion: "La invasi\xF3n de los Cruzados nos ha obligado a entrenar m\xE1s r\xE1pido
+      y con menos recursos, pero seguir\xE9 ayudando a mis compa\xF1eros en todo
+      lo que pueda.\r"
+  Despedida: "Si necesitas m\xE1s consejo, no dudes en volver.\r"

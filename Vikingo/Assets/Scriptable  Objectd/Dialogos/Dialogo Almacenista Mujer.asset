@@ -16,11 +16,13 @@ MonoBehaviour:
   Icono: {fileID: 490796854, guid: 5f650e909c6b81f4a96fb0a157e7bddc, type: 3}
   ContieneInteracionExtra: 0
   InteraccionExtra: 0
-  Saludo: "\xA1Saludos, valiente! "
+  Saludo: "\xA1Saludos, viajero! Aqu\xED en el almac\xE9n, cada provisi\xF3n cuenta."
   Conversacion:
-  - Oracion: "Mi nombre es Helga. Este almac\xE9n\u2026 fue mi hogar, construido
-      por mis padres."
-  - Oracion: Los cruzados lo quemaron todo, destruyeron el trabajo de mi familia.
-  - Oracion: "Estoy reconstruy\xE9ndolo, pero no puedo hacerlo sola. Si puedes ayudarme,
-      juntos levantaremos algo m\xE1s fuerte, para que nuestra aldea sobreviva."
-  Despedida: "\xA1Buena suerte en t\xFA aventura!"
+  - Oracion: "Desde peque\xF1a, he estado rodeada de la riqueza de nuestra tierra.
+      \r\n"
+  - Oracion: "Mis padres eran agricultores, y aprend\xED desde joven el valor de
+      cada grano y cada recurso. Ahora, como almacenista, mi trabajo es vital para
+      que nuestra aldea se mantenga unida.\r\n"
+  - Oracion: La llegada de los Cruzados pone en riesgo nuestra supervivencia. Estoy
+      decidida a asegurar que todos tengan lo necesario para resistir y reconstruir.
+  Despedida: "Valiente, ay\xFAdanos a recolectar provisiones. "

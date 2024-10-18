@@ -13,9 +13,19 @@ MonoBehaviour:
   m_Name: "Dialogo Mujer Introducci\xF3n"
   m_EditorClassIdentifier: 
   Nombre: 'Thora:'
-  Icono: {fileID: 0}
+  Icono: {fileID: 298369286, guid: 74df9091f748e92419360e75d476fa3a, type: 3}
   ContieneInteracionExtra: 0
   InteraccionExtra: 0
-  Saludo: 
-  Conversacion: []
-  Despedida: 
+  Saludo: "\xA1Saludos, viajero! Has llegado en un momento crucial para nuestra aldea."
+  Conversacion:
+  - Oracion: "Mi deber es guiar a aquellos que, como t\xFA, buscan ayudar a nuestra
+      comunidad. "
+  - Oracion: "He vivido toda mi vida en estas tierras, y conozco cada rinc\xF3n y
+      secreto. \r\n"
+  - Oracion: "A pesar de la invasi\xF3n de los Cruzados, conf\xEDo en que con valientes
+      como t\xFA, restauraremos lo perdido."
+  - Oracion: "Debes dirigirte al anciano frente al sal\xF3n comunal. "
+  - Oracion: "\xC9l te dar\xE1 las instrucciones necesarias para continuar con tu
+      misi\xF3n. \r\n"
+  - Oracion: "Nuestra gente necesita tu fortaleza y determinaci\xF3n.\r\n"
+  Despedida: "Sigue adelante, viajero. \nEl anciano te est\xE1 esperando."

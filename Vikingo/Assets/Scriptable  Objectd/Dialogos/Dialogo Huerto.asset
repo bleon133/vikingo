@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6dd3fda039f5d74e9b33ab2f3b39fa4, type: 3}
+  m_Name: Dialogo Huerto
+  m_EditorClassIdentifier: 
+  Nombre: Ingrid
+  Icono: {fileID: 0}
+  ContieneInteracionExtra: 0
+  InteraccionExtra: 0
+  Saludo: "\xA1Hola, viajero! Aqu\xED en el huerto, cada planta cuenta una historia."
+  Conversacion:
+  - Oracion: Desde que tengo memoria, el campo ha sido mi hogar.
+  - Oracion: "Aprend\xED a cultivar de mis padres, quienes siempre dec\xEDan que
+      la tierra es nuestra madre y debemos cuidarla.\r\n"
+  - Oracion: "Sin embargo, la llegada de los Cruzados ha devastado nuestros cultivos
+      y ha tra\xEDdo incertidumbre."
+  Despedida: Juntos, podemos devolver al huerto su esplendor.

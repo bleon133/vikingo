@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6dd3fda039f5d74e9b33ab2f3b39fa4, type: 3}
   m_Name: Dialogo Herreria
   m_EditorClassIdentifier: 
-  Nombre: Bjorn
-  Icono: {fileID: 0}
+  Nombre: 'Bjorn:'
+  Icono: {fileID: 1969072227, guid: 5f650e909c6b81f4a96fb0a157e7bddc, type: 3}
   ContieneInteracionExtra: 0
   InteraccionExtra: 0
-  Saludo: 
-  Conversacion: []
-  Despedida: 
+  Saludo: "\xA1Salve, guerrero del norte!"
+  Conversacion:
+  - Oracion: "Desde joven, el calor de la forja ha sido mi hogar. Aprend\xED el arte
+      de la metalurgia de mi padre, quien siempre dec\xEDa que el hierro refleja
+      la fuerza del coraz\xF3n del que lo trabaja. \r"
+  - Oracion: "En cada espada que forj\xF3, pongo un pedazo de mi alma, sabiendo que
+      esas armas defender\xE1n a nuestra gente. "
+  - Oracion: "La invasi\xF3n de los Cruzados ha destruido mi taller, pero mi voluntad
+      de reconstruirlo sigue intacta. Sin mi forja, nuestra comunidad se siente vac\xEDa."
+  Despedida: "Ay\xFAdame a reconstruir la forja. Sin armas, no podremos defendernos."
