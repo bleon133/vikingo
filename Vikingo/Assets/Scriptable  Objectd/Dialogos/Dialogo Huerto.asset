@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dialogo Huerto
   m_EditorClassIdentifier: 
   Nombre: Ingrid
-  Icono: {fileID: 0}
+  Icono: {fileID: 5401083, guid: 74df9091f748e92419360e75d476fa3a, type: 3}
   ContieneInteracionExtra: 0
   InteraccionExtra: 0
   Saludo: "\xA1Hola, viajero! Aqu\xED en el huerto, cada planta cuenta una historia."

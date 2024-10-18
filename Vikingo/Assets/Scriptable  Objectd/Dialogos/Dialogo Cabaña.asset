@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Dialogo Caba\xF1a"
   m_EditorClassIdentifier: 
   Nombre: 'Harald:'
-  Icono: {fileID: 0}
+  Icono: {fileID: -1121355763, guid: 74df9091f748e92419360e75d476fa3a, type: 3}
   ContieneInteracionExtra: 0
   InteraccionExtra: 0
   Saludo: "\xA1Saludos, viajero! "

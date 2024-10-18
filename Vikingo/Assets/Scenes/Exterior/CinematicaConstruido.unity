@@ -662,7 +662,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &21989266
 Transform:
   m_ObjectHideFlags: 0
@@ -891,7 +891,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Bosque
   targetPosition: {x: 0, y: 0, z: 0}
-  playerInstance: {fileID: 1133385726}
 --- !u!61 &27792894
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1834,7 +1833,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &86254151
 Transform:
   m_ObjectHideFlags: 0
@@ -2388,8 +2387,8 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 0, y: 0, z: 1}
+  m_Origin: {x: -19, y: 0, z: 0}
+  m_Size: {x: 19, y: 6, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -3909,7 +3908,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &203317510
 Transform:
   m_ObjectHideFlags: 0
@@ -5170,7 +5169,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &272016529
 Transform:
   m_ObjectHideFlags: 0
@@ -6841,7 +6840,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &432365108
 Transform:
   m_ObjectHideFlags: 0
@@ -44213,7 +44212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &485420237
 Transform:
   m_ObjectHideFlags: 0
@@ -45809,7 +45808,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Herreria
   targetPosition: {x: 0, y: 0, z: 0}
-  playerInstance: {fileID: 1133385726}
 --- !u!61 &599769335
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46208,7 +46206,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Taberna
   targetPosition: {x: 0, y: 0, z: 0}
-  playerInstance: {fileID: 1133385726}
 --- !u!61 &626880172
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48004,7 +48001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8412340745951473773, guid: 5d1ae8a5aa40e2b41a02cf3a5bf1e844, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d1ae8a5aa40e2b41a02cf3a5bf1e844, type: 3}
@@ -48125,7 +48122,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &784667709
 Transform:
   m_ObjectHideFlags: 0
@@ -50878,8 +50875,8 @@ Transform:
   - {fileID: 1401835779}
   - {fileID: 694791068}
   - {fileID: 2141913536}
-  - {fileID: 1861632207}
   - {fileID: 1178720905}
+  - {fileID: 1861632207}
   - {fileID: 1958373436}
   - {fileID: 1127927377}
   - {fileID: 1998119531}
@@ -51903,7 +51900,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Mina
   targetPosition: {x: 0, y: 0, z: 0}
-  playerInstance: {fileID: 1133385726}
 --- !u!61 &1014243346
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53139,11 +53135,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8956990803763495404, guid: d7d51c91ca42c3b4fac49c6b059c5fdb, type: 3}
   m_PrefabInstance: {fileID: 1412088735631696835}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1133385726 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1447010743705193009, guid: 3f66376288b39804299d73705995c227, type: 3}
-  m_PrefabInstance: {fileID: 137411843}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1133863274 stripped
 Transform:
@@ -55049,7 +55040,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1212259644
 Transform:
   m_ObjectHideFlags: 0
@@ -67813,7 +67804,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1574425264
 Transform:
   m_ObjectHideFlags: 0
@@ -68847,7 +68838,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1604819426
 Transform:
   m_ObjectHideFlags: 0
@@ -69776,7 +69767,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1641730795
 Transform:
   m_ObjectHideFlags: 0
@@ -70301,7 +70292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1668968927
 Transform:
   m_ObjectHideFlags: 0
@@ -71435,7 +71426,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: SalonComunal
   targetPosition: {x: 0, y: 0, z: 0}
-  playerInstance: {fileID: 1133385726}
 --- !u!61 &1700338321
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -71557,7 +71547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1705815933
 Transform:
   m_ObjectHideFlags: 0
@@ -72748,7 +72738,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1758401779
 Transform:
   m_ObjectHideFlags: 0
@@ -73593,7 +73583,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1797383475
 Transform:
   m_ObjectHideFlags: 0
@@ -74599,7 +74589,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 931477630}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1861632208
 MonoBehaviour:
@@ -74631,7 +74621,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1866433768
 Transform:
   m_ObjectHideFlags: 0
@@ -75411,7 +75401,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Almacen
   targetPosition: {x: 0, y: 0, z: 0}
-  playerInstance: {fileID: 1133385726}
 --- !u!61 &1922181336
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -77709,7 +77698,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2117556538
 Transform:
   m_ObjectHideFlags: 0
@@ -78665,7 +78654,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 642491699186972699, guid: 94d06705137e4d04b850adc84b5f1273, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 642491699186972699, guid: 94d06705137e4d04b850adc84b5f1273, type: 3}
       propertyPath: m_LocalPosition.x
@@ -78710,6 +78699,10 @@ PrefabInstance:
     - target: {fileID: 8753217826433296509, guid: 94d06705137e4d04b850adc84b5f1273, type: 3}
       propertyPath: m_Name
       value: SalonComunalDestruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 8753217826433296509, guid: 94d06705137e4d04b850adc84b5f1273, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94d06705137e4d04b850adc84b5f1273, type: 3}
@@ -78996,6 +78989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Herrer\xEDaDestruida"
       objectReference: {fileID: 0}
+    - target: {fileID: 3328055073691070161, guid: d7d51c91ca42c3b4fac49c6b059c5fdb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8956990803763495404, guid: d7d51c91ca42c3b4fac49c6b059c5fdb, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -79246,7 +79243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2723650810012232762, guid: 6fbdd39975360264fa423202e1964a97, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2723650810012232763, guid: 6fbdd39975360264fa423202e1964a97, type: 3}
       propertyPath: m_RootOrder
@@ -79532,6 +79529,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Taberna Destruida
       objectReference: {fileID: 0}
+    - target: {fileID: 4162421276367772678, guid: 554e47471ebe1be4faad0a021ff01d7a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 554e47471ebe1be4faad0a021ff01d7a, type: 3}
 --- !u!1001 &4294900455284391892
@@ -79664,7 +79665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4363802021535115366, guid: a0ce60828513abe46875ed8b73beb471, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0ce60828513abe46875ed8b73beb471, type: 3}
@@ -80649,6 +80650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AlmacenDestruido
       objectReference: {fileID: 0}
+    - target: {fileID: 5656871882715509287, guid: 75403d6cc3571ac4b9aff18144d3d976, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75403d6cc3571ac4b9aff18144d3d976, type: 3}
 --- !u!1001 &8095081901247062891
@@ -80664,7 +80669,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095081899296033616, guid: fb8bf63a3c86e4640b2a479b342ed93d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8095081899296033623, guid: fb8bf63a3c86e4640b2a479b342ed93d, type: 3}
       propertyPath: m_RootOrder

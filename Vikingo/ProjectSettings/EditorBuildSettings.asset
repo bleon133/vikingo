@@ -20,4 +20,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Exterior/LevelDestruido.unity
     guid: dd8dcdc3d711ce2408c45be8c1747511
+  - enabled: 1
+    path: Assets/Scenes/Exterior Mundos/Mina.unity
+    guid: 68a7ee93462d2ee488083c7e5fd557da
+  - enabled: 1
+    path: Assets/Scenes/Exterior Mundos/Bosque.unity
+    guid: dfcd3664af0db694e9ec36410ee69cba
+  - enabled: 1
+    path: Assets/Scenes/Interiores/Almacen.unity
+    guid: ca10675ecdd5ca94f845a5976810c218
+  - enabled: 1
+    path: Assets/Scenes/Exterior Mundos/CuevaPasillo.unity
+    guid: c5af636a4f772d946a4e5312e1e1ca03
+  - enabled: 1
+    path: Assets/Scenes/Interiores/Herreria.unity
+    guid: 4935b4dbd12081247883766d19538249
+  - enabled: 1
+    path: Assets/Scenes/Interiores/SalonComunal.unity
+    guid: c273130712b823a40829b8826b6b7e6c
+  - enabled: 1
+    path: Assets/Scenes/Interiores/Taberna.unity
+    guid: db31f0a087414a04eb7164ecded01646
   m_configObjects: {}
