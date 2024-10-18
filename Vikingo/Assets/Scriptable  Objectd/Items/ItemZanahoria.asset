@@ -21,4 +21,4 @@ MonoBehaviour:
   EsAcumulable: 1
   AcumulacionMax: 50
   Cantidad: 0
-  MPRestauracion: 10
+  MPRestauracion: 5

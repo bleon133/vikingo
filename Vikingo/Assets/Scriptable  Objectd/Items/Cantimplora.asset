@@ -21,4 +21,4 @@ MonoBehaviour:
   EsAcumulable: 1
   AcumulacionMax: 10
   Cantidad: 10
-  HPRestauracion: 10
+  HPRestauracion: 20

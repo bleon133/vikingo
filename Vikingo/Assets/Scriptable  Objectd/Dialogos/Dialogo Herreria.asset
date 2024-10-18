@@ -9,15 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cab22dd2c089434589a30d7f84acb83, type: 3}
-  m_Name: Hierro
+  m_Script: {fileID: 11500000, guid: c6dd3fda039f5d74e9b33ab2f3b39fa4, type: 3}
+  m_Name: Dialogo Herreria
   m_EditorClassIdentifier: 
-  ID: 
-  Nombre: 
+  Nombre: Bjorn
   Icono: {fileID: 0}
-  Descripcion: 
-  Tipo: 5
-  EsConsumible: 0
-  EsAcumulable: 0
-  AcumulacionMax: 20
-  Cantidad: 0
+  ContieneInteracionExtra: 0
+  InteraccionExtra: 0
+  Saludo: 
+  Conversacion: []
+  Despedida: 
