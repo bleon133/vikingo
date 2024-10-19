@@ -12125,7 +12125,7 @@ GameObject:
   - component: {fileID: 531090073}
   - component: {fileID: 531090072}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Mina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12144,7 +12144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escenaDestino: Mina
-  posicionDestino: {x: -2, y: -2}
+  posicionDestino: {x: -0.5, y: -2}
 --- !u!61 &531090073
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14215,7 +14215,7 @@ TilemapCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_MaximumTileChangeCount: 1000
+  m_MaximumTileChangeCount: 20
   m_ExtrusionFactor: 0
 --- !u!483693784 &1541717858
 TilemapRenderer:
