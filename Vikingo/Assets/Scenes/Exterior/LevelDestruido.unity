@@ -2452,6 +2452,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5399880902811572, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 122811321248421307, guid: 3f66376288b39804299d73705995c227, type: 3}
       propertyPath: tiempoMundo
       value: 
