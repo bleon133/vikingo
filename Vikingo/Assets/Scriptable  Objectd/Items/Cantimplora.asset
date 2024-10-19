@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: Cantimplora
   Nombre: Cantimplora
-  Icono: {fileID: 21300000, guid: d98226982bc4e2a4a8227a808b900367, type: 3}
+  Icono: {fileID: 838671358, guid: 53c236b308344734cbb7ea6cb7194ccf, type: 3}
   Descripcion: Bebida alcoholica que restaura 10pts de Salud.
   Tipo: 1
   EsConsumible: 1

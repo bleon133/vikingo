@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: Repollo
   Nombre: Repollo
-  Icono: {fileID: 875257755, guid: b9e00b1882bba1d4dbdd39a8fe7a672e, type: 3}
+  Icono: {fileID: 128508599, guid: 53c236b308344734cbb7ea6cb7194ccf, type: 3}
   Descripcion: Repollo que restaura 25pts de Mana.
   Tipo: 1
   EsConsumible: 1
