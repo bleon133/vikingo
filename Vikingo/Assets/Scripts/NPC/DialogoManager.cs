@@ -137,7 +137,8 @@ public class DialogoManager : Singleton<DialogoManager>
 
         {
             npcConversacionTMP.text += letras[i];
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.01f);//cambiar velocidad de los textos
+
 
         }
 

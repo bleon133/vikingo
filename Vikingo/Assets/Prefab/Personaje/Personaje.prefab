@@ -1225,14 +1225,42 @@ MonoBehaviour:
   itemTiendaPrefab: {fileID: 4260089602597222072, guid: d410174bfabad6a49958f7581123b93e, type: 3}
   panelContenedor: {fileID: 5399880902811572}
   itemsDisponibles:
-  - Nombre: Pocion Vida
+  - Nombre: Cantiplora
     Item: {fileID: 11400000, guid: cd6af2ae4719b454fa18072696bd3acd, type: 2}
     Costo: 5
-    NombreEscena: Almacen
-  - Nombre: Pocion mana
-    Item: {fileID: 11400000, guid: 8cb38b8254476f246898508268153e4b, type: 2}
+    NombreEscena: Taberna
+  - Nombre: Espada berserk
+    Item: {fileID: 11400000, guid: 9200f7d1332fa004b8dc9ff1c34777cb, type: 2}
+    Costo: 100
+    NombreEscena: Herreria
+  - Nombre: Daga
+    Item: {fileID: 11400000, guid: 89e5f23eb3cd1ae47835f02568bd361f, type: 2}
+    Costo: 40
+    NombreEscena: Herreria
+  - Nombre: Espada vikinga
+    Item: {fileID: 11400000, guid: 743d36b34ab097748bcfe4f2d30e1eca, type: 2}
+    Costo: 50
+    NombreEscena: Herreria
+  - Nombre: Pico
+    Item: {fileID: 11400000, guid: 744f6193faa1bff49b57ab5d28994c1e, type: 2}
+    Costo: 10
+    NombreEscena: Herreria
+  - Nombre: Espada vikinga
+    Item: {fileID: 11400000, guid: 1d1b46b35501de14dbd7776381b4026e, type: 2}
     Costo: 5
-    NombreEscena: LevelDestruido
+    NombreEscena: Herreria
+  - Nombre: Hierro
+    Item: {fileID: 11400000, guid: 8c51a535a21d3cc47976458921d0b458, type: 2}
+    Costo: 60
+    NombreEscena: Almacen
+  - Nombre: Piedra
+    Item: {fileID: 11400000, guid: db0b4b6746122bf4fb3954fe8528156a, type: 2}
+    Costo: 10
+    NombreEscena: Almacen
+  - Nombre: Madera
+    Item: {fileID: 11400000, guid: 0a2e4553e8e10264c9bada7b4b9415ec, type: 2}
+    Costo: 10
+    NombreEscena: Almacen
 --- !u!1 &1126141411714079579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1896,7 +1924,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4f600009ebba3c84d9de4dfbc604c364, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6fc327dd7cefd8242ab69911ff2192a3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2423,8 +2451,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 92d9c6381a3e9e54cb3413f1265c4abd, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3b051f0b596cd14489d63f4c696e5e1a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -8853,7 +8881,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1523406687, guid: 6e90e7bcafc6d574a8b911bb3bd26860, type: 3}
+  m_Sprite: {fileID: 1314992547, guid: 6e90e7bcafc6d574a8b911bb3bd26860, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8893,7 +8921,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: -191017667, guid: 6e90e7bcafc6d574a8b911bb3bd26860, type: 3}
+    m_PressedSprite: {fileID: 1978675294, guid: 6e90e7bcafc6d574a8b911bb3bd26860, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -9211,7 +9239,7 @@ RectTransform:
   m_GameObject: {fileID: 7273028767085647449}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.89835, y: 0.89835, z: 0.89835}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7273028768562984998}
@@ -9259,8 +9287,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4281874488
+  m_fontColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9277,8 +9305,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9313,7 +9341,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 13.0075035}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -10506,7 +10534,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1523406687, guid: 6e90e7bcafc6d574a8b911bb3bd26860, type: 3}
+  m_Sprite: {fileID: 1314992547, guid: 6e90e7bcafc6d574a8b911bb3bd26860, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11012,7 +11040,7 @@ RectTransform:
   m_GameObject: {fileID: 7273028767521169408}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.89835, y: 0.89835, z: 0.89835}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7273028767355691827}
@@ -11060,8 +11088,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4281874488
+  m_fontColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -11078,8 +11106,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11114,7 +11142,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 11.705158}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11793,7 +11821,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 869870233
-  m_SortingLayer: 10
+  m_SortingLayer: 11
   m_SortingOrder: 0
   m_Sprite: {fileID: 790950820, guid: 568fe6d4b0386a24fb90a26577da5c53, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15578,7 +15606,7 @@ RectTransform:
   m_GameObject: {fileID: 7273028768492402591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.89835, y: 0.89835, z: 0.89835}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7273028766979720974}
@@ -15626,8 +15654,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4281874488
+  m_fontColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -15680,7 +15708,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 14.353106}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -16441,7 +16469,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1523406687, guid: 6e90e7bcafc6d574a8b911bb3bd26860, type: 3}
+  m_Sprite: {fileID: 1314992547, guid: 6e90e7bcafc6d574a8b911bb3bd26860, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16481,7 +16509,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: -191017667, guid: 6e90e7bcafc6d574a8b911bb3bd26860, type: 3}
+    m_PressedSprite: {fileID: 1978675294, guid: 6e90e7bcafc6d574a8b911bb3bd26860, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -17846,7 +17874,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -46, y: 40}
-  m_SizeDelta: {x: 60, y: 60}
+  m_SizeDelta: {x: 64, y: 64}
   m_Pivot: {x: 1, y: 0}
 --- !u!222 &9041930498321440349
 CanvasRenderer:
@@ -17876,7 +17904,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c4bca5e9fda4e9e4b8dcb39729f3d043, type: 3}
+  m_Sprite: {fileID: 566654635, guid: 8857ad9ef5d2b8043aba11fd97d0cb6e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

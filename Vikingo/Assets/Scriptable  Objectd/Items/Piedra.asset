@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cab22dd2c089434589a30d7f84acb83, type: 3}
   m_Name: Piedra
   m_EditorClassIdentifier: 
-  ID: 
-  Nombre: 
-  Icono: {fileID: 0}
-  Descripcion: 
-  Tipo: 0
+  ID: Piedra
+  Nombre: Piedra
+  Icono: {fileID: 1509072303, guid: 53c236b308344734cbb7ea6cb7194ccf, type: 3}
+  Descripcion: Piedra.
+  Tipo: 5
   EsConsumible: 0
   EsAcumulable: 0
-  AcumulacionMax: 0
+  AcumulacionMax: 20
   Cantidad: 0

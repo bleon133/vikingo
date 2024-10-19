@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: Remolacha
   Nombre: Remolacha
-  Icono: {fileID: 21300000, guid: fb024102d42051c47813295d0afdebb4, type: 3}
+  Icono: {fileID: 771480953, guid: 53c236b308344734cbb7ea6cb7194ccf, type: 3}
   Descripcion: Remolacha que restaura 15pts de Mana.
   Tipo: 1
   EsConsumible: 1

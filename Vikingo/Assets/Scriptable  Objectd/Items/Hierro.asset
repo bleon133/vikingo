@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cab22dd2c089434589a30d7f84acb83, type: 3}
   m_Name: Hierro
   m_EditorClassIdentifier: 
-  ID: 
-  Nombre: 
-  Icono: {fileID: 0}
-  Descripcion: 
+  ID: Hierro
+  Nombre: Hierro
+  Icono: {fileID: 21300000, guid: 79e012767209f19498a6d1742c6da21e, type: 3}
+  Descripcion: Lingote de hierro.
   Tipo: 5
   EsConsumible: 0
   EsAcumulable: 0
