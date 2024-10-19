@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dialogo Entrenamiento
   m_EditorClassIdentifier: 
   Nombre: 'Sigurd:'
-  Icono: {fileID: -1121355763, guid: 74df9091f748e92419360e75d476fa3a, type: 3}
+  Icono: {fileID: 21300000, guid: e4110fe4e31403e48b5ece81fe370687, type: 3}
   ContieneInteracionExtra: 0
   InteraccionExtra: 0
   Saludo: "\xA1Honor y victoria!"
