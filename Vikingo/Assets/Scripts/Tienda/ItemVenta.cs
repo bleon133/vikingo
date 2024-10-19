@@ -9,4 +9,6 @@ public class ItemVenta
     public string Nombre;
     public InventarioItem Item;
     public int Costo;
+    public string NombreEscena;
+
 }

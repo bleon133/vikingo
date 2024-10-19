@@ -1228,9 +1228,11 @@ MonoBehaviour:
   - Nombre: Pocion Vida
     Item: {fileID: 11400000, guid: cd6af2ae4719b454fa18072696bd3acd, type: 2}
     Costo: 5
+    NombreEscena: Almacen
   - Nombre: Pocion mana
     Item: {fileID: 11400000, guid: 8cb38b8254476f246898508268153e4b, type: 2}
     Costo: 5
+    NombreEscena: LevelDestruido
 --- !u!1 &1126141411714079579
 GameObject:
   m_ObjectHideFlags: 0
