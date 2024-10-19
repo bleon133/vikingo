@@ -50,7 +50,19 @@ public class ObjectSpawner : MonoBehaviour
     {
         // Devuelve todos los colliders que se superponen con un círculo de radio minDistance
         Collider2D[] colliders = Physics2D.OverlapCircleAll(position, minDistance);
-        return colliders.Length == 0; // Retorna true si no hay colisionadores en el área
+
+        // Iterar sobre los colliders encontrados para verificar si alguno pertenece a un tronco
+        foreach (Collider2D collider in colliders)
+        {
+            // Si el collider tiene la etiqueta "Tronco", entonces no es una posición válida
+            if (collider.CompareTag("Tronco"))
+            {
+                return false; // Hay colisión con un tronco, por lo tanto no es válido
+            }
+        }
+
+        // Si no se encontraron troncos en el área, la posición es válida
+        return true;
     }
 
     void OnDrawGizmos()
