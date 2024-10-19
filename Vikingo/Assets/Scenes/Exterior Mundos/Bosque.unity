@@ -25326,6 +25326,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arbol1 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2185884204382017863, guid: 907cb2cd9d23ac14f80b4fc32757c456, type: 3}
+      propertyPath: m_SortingLayer
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185884204382017863, guid: 907cb2cd9d23ac14f80b4fc32757c456, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 73082081
+      objectReference: {fileID: 0}
     - target: {fileID: 5159325624019707393, guid: 907cb2cd9d23ac14f80b4fc32757c456, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -25437,6 +25445,54 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2853845041542722640, guid: 3f66376288b39804299d73705995c227, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273028766792195668, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273028766792195668, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273028766792195668, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273028766792195668, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273028768230028289, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273028768230028289, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273028768230028289, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273028768230028289, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273028768247608990, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273028768247608990, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273028768247608990, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273028768247608990, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -27737,6 +27793,14 @@ PrefabInstance:
     - target: {fileID: 1984745931081804373, guid: 907cb2cd9d23ac14f80b4fc32757c456, type: 3}
       propertyPath: m_Name
       value: Arbol1 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185884204382017863, guid: 907cb2cd9d23ac14f80b4fc32757c456, type: 3}
+      propertyPath: m_SortingLayer
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185884204382017863, guid: 907cb2cd9d23ac14f80b4fc32757c456, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 73082081
       objectReference: {fileID: 0}
     - target: {fileID: 5159325624019707393, guid: 907cb2cd9d23ac14f80b4fc32757c456, type: 3}
       propertyPath: m_RootOrder
