@@ -2789,7 +2789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcButtonInteractuar: {fileID: 2100312034}
-  npcDialogo: {fileID: 0}
+  npcDialogo: {fileID: 11400000, guid: 1ff75ee5a628d3641a0fe6c771e6c3e2, type: 2}
 --- !u!61 &1865598699
 BoxCollider2D:
   m_ObjectHideFlags: 0

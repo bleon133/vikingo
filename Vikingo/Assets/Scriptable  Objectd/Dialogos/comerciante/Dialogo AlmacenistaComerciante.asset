@@ -16,6 +16,7 @@ MonoBehaviour:
   Icono: {fileID: 490796854, guid: 5f650e909c6b81f4a96fb0a157e7bddc, type: 3}
   ContieneInteracionExtra: 1
   InteraccionExtra: 1
-  Saludo: 'Hola , tengo algunos productos que te pueden interesar '
+  Saludo: " \xA1Hola, bienvenido!  \n\xBFQu\xE9 material est\xE1s buscando hoy? \nEstoy
+    aqu\xED para ofrecerte lo que necesites."
   Conversacion: []
   Despedida: 

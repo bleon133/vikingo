@@ -2454,7 +2454,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5399880902811572, guid: 3f66376288b39804299d73705995c227, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 122811321248421307, guid: 3f66376288b39804299d73705995c227, type: 3}
       propertyPath: tiempoMundo
@@ -2565,6 +2565,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 8650e352d54f9c6489eb5e866095f54f, type: 3}
     - target: {fileID: 3587037115875691138, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773707684001017667, guid: 3f66376288b39804299d73705995c227, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}

@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6dd3fda039f5d74e9b33ab2f3b39fa4, type: 3}
   m_Name: DialogoHerreroComerciantes
   m_EditorClassIdentifier: 
-  Nombre: 
-  Icono: {fileID: 0}
-  ContieneInteracionExtra: 0
-  InteraccionExtra: 0
-  Saludo: 
+  Nombre: Bjorn
+  Icono: {fileID: 1969072227, guid: 5f650e909c6b81f4a96fb0a157e7bddc, type: 3}
+  ContieneInteracionExtra: 1
+  InteraccionExtra: 1
+  Saludo: "\xA1Hola, guerrero!  \nTengo un armamento que te puede servir. \nHachas,
+    espadas, lo que necesites para la batalla."
   Conversacion: []
   Despedida: 
