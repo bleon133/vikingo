@@ -1225,14 +1225,42 @@ MonoBehaviour:
   itemTiendaPrefab: {fileID: 4260089602597222072, guid: d410174bfabad6a49958f7581123b93e, type: 3}
   panelContenedor: {fileID: 5399880902811572}
   itemsDisponibles:
-  - Nombre: Pocion Vida
+  - Nombre: Cantiplora
     Item: {fileID: 11400000, guid: cd6af2ae4719b454fa18072696bd3acd, type: 2}
     Costo: 5
-    NombreEscena: Almacen
-  - Nombre: Pocion mana
-    Item: {fileID: 11400000, guid: 8cb38b8254476f246898508268153e4b, type: 2}
+    NombreEscena: Taberna
+  - Nombre: Espada berserk
+    Item: {fileID: 11400000, guid: 9200f7d1332fa004b8dc9ff1c34777cb, type: 2}
+    Costo: 100
+    NombreEscena: Herreria
+  - Nombre: Daga
+    Item: {fileID: 11400000, guid: 89e5f23eb3cd1ae47835f02568bd361f, type: 2}
+    Costo: 40
+    NombreEscena: Herreria
+  - Nombre: Espada vikinga
+    Item: {fileID: 11400000, guid: 743d36b34ab097748bcfe4f2d30e1eca, type: 2}
+    Costo: 50
+    NombreEscena: Herreria
+  - Nombre: Pico
+    Item: {fileID: 11400000, guid: 744f6193faa1bff49b57ab5d28994c1e, type: 2}
+    Costo: 10
+    NombreEscena: Herreria
+  - Nombre: Espada vikinga
+    Item: {fileID: 11400000, guid: 1d1b46b35501de14dbd7776381b4026e, type: 2}
     Costo: 5
-    NombreEscena: LevelDestruido
+    NombreEscena: Herreria
+  - Nombre: Hierro
+    Item: {fileID: 11400000, guid: 8c51a535a21d3cc47976458921d0b458, type: 2}
+    Costo: 60
+    NombreEscena: Almacen
+  - Nombre: Piedra
+    Item: {fileID: 11400000, guid: db0b4b6746122bf4fb3954fe8528156a, type: 2}
+    Costo: 10
+    NombreEscena: Almacen
+  - Nombre: Madera
+    Item: {fileID: 11400000, guid: 0a2e4553e8e10264c9bada7b4b9415ec, type: 2}
+    Costo: 10
+    NombreEscena: Almacen
 --- !u!1 &1126141411714079579
 GameObject:
   m_ObjectHideFlags: 0
@@ -11793,7 +11821,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 869870233
-  m_SortingLayer: 10
+  m_SortingLayer: 11
   m_SortingOrder: 0
   m_Sprite: {fileID: 790950820, guid: 568fe6d4b0386a24fb90a26577da5c53, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

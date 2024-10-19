@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8935bcbf239736f4abc46a30a1973fe1, type: 3}
-  m_Name: ArmaBerserker
+  m_Name: ArmaPico
   m_EditorClassIdentifier: 
-  ArmaIcono: {fileID: 21300000, guid: e613c1e90cc1db041932512da2d784f0, type: 3}
+  ArmaIcono: {fileID: 21300000, guid: b3b63c8a2b30d684ca35eec001a12d15, type: 3}
   IconoSkill: {fileID: 0}
   Tipo: 1
-  "Da\xF1o": 50
+  "Da\xF1o": 20
   ManaRequerida: 0
-  ChanceCritico: 50
-  ChanceBloqueo: 50
+  ChanceCritico: 2
+  ChanceBloqueo: 2
