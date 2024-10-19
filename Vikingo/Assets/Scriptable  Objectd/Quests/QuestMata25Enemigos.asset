@@ -23,3 +23,8 @@ MonoBehaviour:
     Cantidad: 2
   CantidadActual: 0
   QuestCompletadoCheck: 0
+  ItemsRequeridos: []
+  etiquetasParaMostrar:
+  - 
+  etiquetasParaOcultar:
+  - 

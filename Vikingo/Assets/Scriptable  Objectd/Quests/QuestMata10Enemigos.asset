@@ -23,3 +23,10 @@ MonoBehaviour:
     Cantidad: 1
   CantidadActual: 0
   QuestCompletadoCheck: 0
+  ItemsRequeridos:
+  - Item: {fileID: 0}
+    CantidadRequerida: 0
+  - Item: {fileID: 0}
+    CantidadRequerida: 0
+  objetosParaMostrar: []
+  objetosParaOcultar: []

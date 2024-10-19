@@ -20,18 +20,18 @@ public class Inventario : Singleton<Inventario>
 
     public void AñadirItem(InventarioItem itemPorAñadir, int cantidad)
     {
-        if (itemPorAñadir == null)
+        if (itemPorAñadir == null || cantidad <= 0)
         {
             return;
         }
 
-        //Verificación en caso tener ya un item similar en inventario
+        // Verificación en caso de tener ya un ítem similar en inventario
         List<int> indexes = VerificarExistencia(itemPorAñadir.ID);
         if (itemPorAñadir.EsAcumulable)
         {
-            if (indexes.Count > 0) 
+            if (indexes.Count > 0)
             {
-                for (int i = 0; i < indexes.Count; i++) 
+                for (int i = 0; i < indexes.Count; i++)
                 {
                     if (itemsInventario[indexes[i]].Cantidad < itemPorAñadir.AcumulacionMax)
                     {
@@ -51,13 +51,7 @@ public class Inventario : Singleton<Inventario>
             }
         }
 
-
-        if(cantidad <= 0)
-        {
-            return;
-        }
-
-        if(cantidad > itemPorAñadir.AcumulacionMax)
+        if (cantidad > itemPorAñadir.AcumulacionMax)
         {
             AñadirItemEnSlotDisponible(itemPorAñadir, itemPorAñadir.AcumulacionMax);
             cantidad -= itemPorAñadir.AcumulacionMax;
@@ -73,7 +67,7 @@ public class Inventario : Singleton<Inventario>
     {
         List<int> indexesDelItem = new List<int>();
 
-        for(int i = 0; i < itemsInventario.Length; i++)
+        for (int i = 0; i < itemsInventario.Length; i++)
         {
             if (itemsInventario[i] != null)
             {
@@ -81,7 +75,7 @@ public class Inventario : Singleton<Inventario>
                 {
                     indexesDelItem.Add(i);
                 }
-            }            
+            }
         }
 
         return indexesDelItem;
@@ -89,7 +83,7 @@ public class Inventario : Singleton<Inventario>
 
     private void AñadirItemEnSlotDisponible(InventarioItem item, int cantidad)
     {
-        for (int i = 0; i < itemsInventario.Length; i++) 
+        for (int i = 0; i < itemsInventario.Length; i++)
         {
             if (itemsInventario[i] == null)
             {
@@ -116,6 +110,45 @@ public class Inventario : Singleton<Inventario>
         }
     }
 
+    public void RemoverItem(InventarioItem item, int cantidad)
+    {
+        if (item == null || cantidad <= 0)
+        {
+            return;
+        }
+
+        List<int> indexes = VerificarExistencia(item.ID);
+        foreach (int index in indexes)
+        {
+            if (itemsInventario[index].Cantidad >= cantidad)
+            {
+                itemsInventario[index].Cantidad -= cantidad;
+                if (itemsInventario[index].Cantidad <= 0)
+                {
+                    EliminarItem(index);
+                }
+                return; // Salimos después de remover la cantidad necesaria
+            }
+        }
+    }
+
+    public int GetCantidad(InventarioItem item)
+    {
+        if (item == null)
+        {
+            return 0;
+        }
+
+        int cantidad = 0;
+        List<int> indexes = VerificarExistencia(item.ID);
+        foreach (int index in indexes)
+        {
+            cantidad += itemsInventario[index].Cantidad;
+        }
+
+        return cantidad;
+    }
+
     public void MoverItem(int indexInicial, int indexFinal)
     {
         if (itemsInventario[indexInicial] == null || itemsInventario[indexFinal] != null)
@@ -129,7 +162,7 @@ public class Inventario : Singleton<Inventario>
 
         InventarioUI.Instance.DibujarItemEnInventario(itemPorMover, itemPorMover.Cantidad, indexFinal);
 
-        //Borramos Item del slot inicial
+        // Borramos Item del slot inicial
         itemsInventario[indexInicial] = null;
         InventarioUI.Instance.DibujarItemEnInventario(null, 0, indexInicial);
     }
