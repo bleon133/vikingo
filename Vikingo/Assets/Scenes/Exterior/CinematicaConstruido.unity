@@ -395,6 +395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b377be1ad54f0f4c81c1bfebfb9e926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcButtonInteractuar: {fileID: 0}
   npcDialogo: {fileID: 11400000, guid: dc77a165d4c7ee7419156e3be5b942b3, type: 2}
 --- !u!61 &14859207
 BoxCollider2D:
@@ -461,7 +462,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1315784929
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: 1763932037, guid: 26a3424731a51724892e83ee07a1e971, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -770,7 +771,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576953313
-  m_SortingLayer: 14
+  m_SortingLayer: 15
   m_SortingOrder: 0
   m_Sprite: {fileID: -685760878, guid: 1aac5d21602cae24bb7d936cb94f42fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1472,6 +1473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b377be1ad54f0f4c81c1bfebfb9e926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcButtonInteractuar: {fileID: 0}
   npcDialogo: {fileID: 11400000, guid: 3ab210083aa99f94ab1e842d856f8a87, type: 2}
 --- !u!212 &80610382
 SpriteRenderer:
@@ -1512,7 +1514,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1315784929
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: -2090186983, guid: ccad0e1cd61695041b5845a9cf7926aa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1702,7 +1704,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576953313
-  m_SortingLayer: 14
+  m_SortingLayer: 15
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 748defda3a1917344a2cd96cb1f62b6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2259,6 +2261,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5399880902811572, guid: 3f66376288b39804299d73705995c227, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 122811321248421307, guid: 3f66376288b39804299d73705995c227, type: 3}
       propertyPath: tiempoMundo
       value: 
@@ -3867,7 +3873,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576953313
-  m_SortingLayer: 14
+  m_SortingLayer: 15
   m_SortingOrder: 0
   m_Sprite: {fileID: -562744335, guid: 1aac5d21602cae24bb7d936cb94f42fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4019,7 +4025,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576953313
-  m_SortingLayer: 14
+  m_SortingLayer: 15
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0fcb93d9b4837564caef7f4fcb298b08, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6759,6 +6765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b377be1ad54f0f4c81c1bfebfb9e926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcButtonInteractuar: {fileID: 0}
   npcDialogo: {fileID: 11400000, guid: 0344454f13ab1664eba2558dcecf50f9, type: 2}
 --- !u!61 &440618436
 BoxCollider2D:
@@ -6825,7 +6832,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1315784929
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: 1215490420, guid: c485da80efe4ecd419ed3d920cbca360, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -46322,7 +46329,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1315784929
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: 2103195249, guid: 019b7127e6ea66a4994d4342981a2f64, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -46388,6 +46395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b377be1ad54f0f4c81c1bfebfb9e926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcButtonInteractuar: {fileID: 0}
   npcDialogo: {fileID: 11400000, guid: 3ee8e1525c8962e40bcba23a41843187, type: 2}
 --- !u!1001 &695490349
 PrefabInstance:
@@ -47181,7 +47189,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576953313
-  m_SortingLayer: 14
+  m_SortingLayer: 15
   m_SortingOrder: 0
   m_Sprite: {fileID: 1241350532, guid: 609948f4cc17f5141b370c33c710a9fb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -49270,6 +49278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b377be1ad54f0f4c81c1bfebfb9e926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcButtonInteractuar: {fileID: 0}
   npcDialogo: {fileID: 11400000, guid: d1210558bf419d5429f9f07f7791b01f, type: 2}
 --- !u!212 &870361214
 SpriteRenderer:
@@ -49310,7 +49319,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1315784929
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: 777322822, guid: 3269022212ece58448ae0511b08f7296, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -54424,6 +54433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b377be1ad54f0f4c81c1bfebfb9e926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcButtonInteractuar: {fileID: 0}
   npcDialogo: {fileID: 11400000, guid: 36313a769d280d441a00ac907aa4c193, type: 2}
 --- !u!61 &1235853937
 BoxCollider2D:
@@ -54490,7 +54500,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1315784929
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: -2045825364, guid: 340a749c862f00244a2bfb73f561f8b7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -71700,7 +71710,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576953313
-  m_SortingLayer: 14
+  m_SortingLayer: 15
   m_SortingOrder: 0
   m_Sprite: {fileID: -922204315, guid: 1aac5d21602cae24bb7d936cb94f42fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -72487,7 +72497,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1315784929
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: 835301360, guid: 00164ef84e7182b4d9e498f9c5420ba1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -72527,6 +72537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b377be1ad54f0f4c81c1bfebfb9e926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcButtonInteractuar: {fileID: 0}
   npcDialogo: {fileID: 11400000, guid: fb5657d104b001b44bde84d4eac37545, type: 2}
 --- !u!1 &1866433767
 GameObject:
@@ -72654,7 +72665,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576953313
-  m_SortingLayer: 14
+  m_SortingLayer: 15
   m_SortingOrder: 0
   m_Sprite: {fileID: -672945166, guid: 1aac5d21602cae24bb7d936cb94f42fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -73412,7 +73423,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -576953313
-  m_SortingLayer: 14
+  m_SortingLayer: 15
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 701a668724697f444a719a89c349c8eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -74183,6 +74194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b377be1ad54f0f4c81c1bfebfb9e926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcButtonInteractuar: {fileID: 0}
   npcDialogo: {fileID: 11400000, guid: 064fd27f6bfb6424aa22cdb6fa1b7201, type: 2}
 --- !u!212 &1998119535
 SpriteRenderer:
@@ -74223,7 +74235,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1315784929
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: 98082649, guid: 0240d4a799fbe5b4db52b9b44ec63b71, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
