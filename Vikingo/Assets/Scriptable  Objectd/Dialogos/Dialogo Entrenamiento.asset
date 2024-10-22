@@ -18,10 +18,8 @@ MonoBehaviour:
   InteraccionExtra: 0
   Saludo: "\xA1Honor y victoria!"
   Conversacion:
-  - Oracion: "Desde joven, me he dedicado a guiar a los guerreros de nuestra aldea.
-      Mi misi\xF3n es asegurar que todos reciban el entrenamiento necesario y los
-      recursos para mantenerse fuertes.\r\n"
-  - Oracion: "La invasi\xF3n de los Cruzados nos ha obligado a entrenar m\xE1s r\xE1pido
-      y con menos recursos, pero seguir\xE9 ayudando a mis compa\xF1eros en todo
-      lo que pueda.\r"
+  - Oracion: Desde joven, he guiado a los guerreros de nuestra aldea, asegurando
+      su entrenamiento y fortaleza.
+  - Oracion: "La invasi\xF3n de los Cruzados nos ha forzado a entrenar r\xE1pido
+      y con menos recursos, pero seguir\xE9 apoyando a mis compa\xF1eros."
   Despedida: "Si necesitas m\xE1s consejo, no dudes en volver.\r"

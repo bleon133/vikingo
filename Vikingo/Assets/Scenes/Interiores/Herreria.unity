@@ -2013,7 +2013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escenaDestino: LevelDestruido
-  posicionDestino: {x: 0, y: 0}
+  posicionDestino: {x: 8, y: 16}
 --- !u!61 &894013560
 BoxCollider2D:
   m_ObjectHideFlags: 0
