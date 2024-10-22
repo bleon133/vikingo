@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Interiores/Taberna.unity
     guid: db31f0a087414a04eb7164ecded01646
+  - enabled: 1
+    path: Assets/Scenes/Interfaz/Cinematica.unity
+    guid: 9e8e2a63a11b40d409aa7eb039befbd3
   m_configObjects: {}

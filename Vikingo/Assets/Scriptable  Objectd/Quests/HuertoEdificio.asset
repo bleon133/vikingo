@@ -10,16 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b513b2e98963ca343a33bb1a1b61522f, type: 3}
-  m_Name: Huerto1Edificio
+  m_Name: HuertoEdificio
   m_EditorClassIdentifier: 
   Nombre: "Misi\xF3n huertos"
-  ID: 
+  ID: MisionHuertos
   CantidadObjetivo: 0
-  Descripcion: 
+  Descripcion: 100 de madera
   RecompensaOro: 20
-  RecompensaExp: 0
+  RecompensaExp: 5
   RecompensaItem:
-    Item: {fileID: 0}
-    Cantidad: 0
+    Item: {fileID: 11400000, guid: ecce107997b2f4b4fa14128fc53e3b02, type: 2}
+    Cantidad: 5
   CantidadActual: 0
   QuestCompletadoCheck: 0
+  ItemsRequeridos:
+  - Item: {fileID: 11400000, guid: 0a2e4553e8e10264c9bada7b4b9415ec, type: 2}
+    CantidadRequerida: 101
+  etiquetasParaMostrar:
+  - HuertoConstruido
+  etiquetasParaOcultar:
+  - HuertoDestruido

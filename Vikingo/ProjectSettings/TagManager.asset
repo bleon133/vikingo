@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Tronco
   - Hojas
+  - HuertoConstruido
+  - HuertoDestruido
   layers:
   - Default
   - TransparentFX
