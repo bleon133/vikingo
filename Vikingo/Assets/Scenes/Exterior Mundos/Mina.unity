@@ -5219,7 +5219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escenaDestino: LevelDestruido
-  posicionDestino: {x: 0, y: 0}
+  posicionDestino: {x: 4.2, y: 22}
 --- !u!1 &1286895563
 GameObject:
   m_ObjectHideFlags: 0
