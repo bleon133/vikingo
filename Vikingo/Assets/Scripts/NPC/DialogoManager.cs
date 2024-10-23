@@ -27,6 +27,9 @@ public class DialogoManager : Singleton<DialogoManager>
     private bool dialogoAnimado;
     private bool despedidaMostrada;
 
+    // Nueva variable para controlar si el diálogo ha sido activado
+    private bool dialogoActivado = false;
+
     // Método Start se ejecuta cuando el script se inicializa. Aquí se inicializa la cola de diálogos.
     private void Start()
     {
@@ -42,13 +45,16 @@ public class DialogoManager : Singleton<DialogoManager>
             return;
         }
 
-        // Si el jugador presiona la tecla "F", se configura el panel de diálogo con el NPC disponible.
-        if (Input.GetKeyDown(KeyCode.F))
+        // Si el jugador presiona la tecla "F" y el diálogo no ha sido activado, se configura el panel de diálogo.
+        if (Input.GetKeyDown(KeyCode.F) && !dialogoActivado)
         {
             ConfigurarPanel(NPCDisponible.Dialogo);
 
             // Deshabilitar el movimiento del personaje mientras se muestra el diálogo.
             controlMovimiento.enabled = false;
+
+            // Establece que el diálogo ha sido activado
+            dialogoActivado = true;
         }
 
         // Si el jugador presiona la tecla "Space", se continúa el diálogo o se cierra el panel.
@@ -59,6 +65,8 @@ public class DialogoManager : Singleton<DialogoManager>
             {
                 AbrirCerrarPanelDialogo(false);
                 despedidaMostrada = false;
+                // Restablecer el estado de dialogoActivado si se cierra el panel
+                dialogoActivado = false;
                 return;
             }
 
@@ -67,6 +75,8 @@ public class DialogoManager : Singleton<DialogoManager>
             {
                 UIManager.Instance.AbrirPanelInteraccion(NPCDisponible.Dialogo.InteraccionExtra);
                 AbrirCerrarPanelDialogo(false);
+                // Restablecer el estado de dialogoActivado si se cierra el panel
+                dialogoActivado = false;
                 return;
             }
 
