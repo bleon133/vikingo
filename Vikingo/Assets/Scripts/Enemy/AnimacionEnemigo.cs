@@ -36,14 +36,12 @@ public class AnimacionEnemigo : MonoBehaviour
                     // Derecha
                     animator.SetFloat("X", 1);
                     animator.SetFloat("Y", 0);
-                    Debug.Log("Movimiento hacia la derecha");
                 }
                 else
                 {
                     // Izquierda
                     animator.SetFloat("X", -1);
                     animator.SetFloat("Y", 0);
-                    Debug.Log("Movimiento hacia la izquierda");
                 }
             }
             else
@@ -54,14 +52,12 @@ public class AnimacionEnemigo : MonoBehaviour
                     // Arriba
                     animator.SetFloat("X", 0);
                     animator.SetFloat("Y", 1);
-                    Debug.Log("Movimiento hacia arriba");
                 }
                 else
                 {
                     // Abajo
                     animator.SetFloat("X", 0);
                     animator.SetFloat("Y", -1);
-                    Debug.Log("Movimiento hacia abajo");
                 }
             }
         }

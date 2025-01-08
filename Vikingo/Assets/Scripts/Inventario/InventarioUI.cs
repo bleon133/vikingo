@@ -102,6 +102,27 @@ public class InventarioUI : Singleton<InventarioUI>
         }
     }
 
+    public void EquiparItem()
+    {
+        if(SlotSeleccionado != null)
+        {
+            SlotSeleccionado.SlotEquiparItem();
+            SlotSeleccionado.SeleccionarSlot();
+        }
+    }
+
+    public void RemoverItem()
+    {
+        if (SlotSeleccionado != null)
+        {
+            Debug.Log("No es nulo");
+            SlotSeleccionado.SlotRemoverItem();
+            SlotSeleccionado.SeleccionarSlot();
+        }
+
+        Debug.Log("Es nulo");
+    }
+
     #region Evento
     private void SlotInteraccionRespuesta(TipoDeInteraccion tipo, int index)
     {
