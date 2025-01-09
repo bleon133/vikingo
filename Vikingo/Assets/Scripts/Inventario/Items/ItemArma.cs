@@ -21,7 +21,7 @@ public class ItemArma : InventarioItem
 
     public override bool RemoverItem()
     {
-        if(ContenedorArma.Instance.ArmaEquipada != null)
+        if(ContenedorArma.Instance.ArmaEquipada == null)
         {
             Debug.Log("Es nulo");
             return false;
