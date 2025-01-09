@@ -17,8 +17,9 @@ public class Arma : ScriptableObject
     public Sprite IconoSkill; //Aqui se pone el icono del arma tipo meele.
     public TipoArma Tipo; //aqui se especifica el tipo de arma que se va a usar.
     public float Daño; //Daño del arma.
-    
+
     [Header("Arma Magica")]
+    public Proyectil ProyectilPrefab;
     public float ManaRequerida; //Si el arma requiere mana o energia.
 
     [Header("Stats")]

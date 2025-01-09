@@ -59,4 +59,10 @@ public class ObjectPooler : MonoBehaviour
         // Si no hay objetos disponibles, devuelve null
         return null;
     }
+
+    public void DestruirPooler()
+    {
+        Destroy(ListaContenedor);
+        lista.Clear();
+    }
 }

@@ -15,13 +15,14 @@ public class ContenedorArma : Singleton<ContenedorArma>
         armaIcono.gameObject.SetActive(true);
         armaSkillIcono.sprite = itemArma.Arma.IconoSkill;
         armaSkillIcono.gameObject.SetActive(true);
+        Inventario.Instance.Personaje.PersonajeAtaque.EquiparArma(itemArma);
     }
 
     public void RemoverArma()
     {
-        Debug.Log("Remover Arma");
         armaIcono.gameObject.SetActive(false);
         armaSkillIcono.gameObject.SetActive(false);
         ArmaEquipada = null;
+        Inventario.Instance.Personaje.PersonajeAtaque.RemoverArma();
     }
 }

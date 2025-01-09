@@ -4,14 +4,15 @@ public class Personaje : MonoBehaviour
 {
     [SerializeField] private PersonajeStats stats;
 
+    public PersonajeAtaque PersonajeAtaque { get; private set; }
     public PersonajeExperiencia PersonajeExperiencia {  get; private set; }// añadir la experiencia adquirido por las misiones
-
     public PersonajeVida PersonajeVida { get; private set; }
     public PersonajeMana PersonajeMana { get; private set; }
     public PersonajeAnimaciones PersonajeAnimaciones { get; private set; }
 
     private void Awake()
     {
+        PersonajeAtaque = GetComponent<PersonajeAtaque>();
         PersonajeVida = GetComponent<PersonajeVida>();
         PersonajeMana = GetComponent<PersonajeMana>();
         PersonajeAnimaciones = GetComponent<PersonajeAnimaciones>();
