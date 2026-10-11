@@ -280,6 +280,11 @@ Desde *Entrar* se accede al juego, que arranca en la aldea destruida. El flujo p
 5. **Misiones secundarias** — los aldeanos piden recursos y bajas.
 6. **El ascenso** — de Karl a Konungr, con alianzas y defensa contra los Cruzados.
 
+<p align="center">
+  <img src="docs/img/cinematica.png" alt="Cinemática en ejecución" width="820"><br>
+  <sub>La cinemática corriendo en el juego: la primera lámina, con el botón <i>SKIP</i> y la flecha para avanzar.</sub>
+</p>
+
 ---
 
 ## Interfaz
